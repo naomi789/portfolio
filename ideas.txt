@@ -1,6 +1,7 @@
 SITES:
 1. https://www.royfalinwang.com/
 2. https://www.amyrogers.design/
+(Amy's my favorite! note the "external link" logo in her nav bar)
 3. https://codycai.com/
 4. https://wyemchin.webflow.io/
 
