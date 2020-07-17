@@ -35,23 +35,50 @@
 			<!-- Main -->
 				<section id="main" class="container">
 					<header>
-						<h2>Generic</h2>
-						<p>A generic page for every non-generic situation.</p>
+						<h2>Jdict</h2>
+						<p>Japanese Dictionary and Flashcards</p>
 					</header>
 					<div class="box">
-						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
-						<h3>This is a subheading</h3>
-						<p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
-						<div class="row">
-							<div class="row-6 row-12-mobilep">
-								<h3>And now a subheading</h3>
-								<p>Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.</p>
+						<!-- <span class="image featured"><img src="images/pic01.jpg" alt="" /></span> -->
+						<h3>Project</h3>
+						<p>Learning a new language involves looking up new words in a dictionary--- but sometimes students find themselves looking up the same word again and again if they do not learn it. This is particularly difficult for students learning Japanese. In addition to understanding the english meaning of a given word, they will need to learn the pronunciation of the word (written in either hiragana or katakana) as well as the written kanji (symbols that represent the meaning of the word, not the pronunciation).
+						</p>
+						<h3>Acomplishments</h3>
+						<!-- <div class="row">
+							<div class="col-2-large col-2-medium col-4-small row-6-mobilep">
+								<a class="image fit"><img src="images/jdict/dictionary.PNG" alt="dictionary"></a>
 							</div>
-							<div class="row-6 row-12-mobilep">
-								<h3>And another subheading</h3>
-								<p>Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.</p>
+							<div class="col-2-large col-2-medium col-4-small row-6-mobilep">
+								<a class="image fit"><img src="images/jdict/search_results.PNG" alt="search"></a>
 							</div>
-						</div>
+							<div class="col-2-large col-2-medium col-4-small">
+								<a class="image fit"><img src="images/jdict/lists.PNG" alt="lists"></a>
+							</div>
+							<div class="col-2-large col-2-medium col-4-small">
+								<a class="image fit"><img src="images/jdict/deck.PNG" alt="deck"></a>
+							</div>
+							<div class="col-2-large col-2-medium col-4-small">
+								<a class="image fit"><img src="images/jdict/front.PNG" alt="front"></a>
+							</div>
+							<div class="col-2-large col-2-medium col-4-small">
+								<a class="image fit"><img src="images/jdict/back.PNG" alt="back"></a>
+							</div>
+						</div> -->
+
+						<p>My team and I created a website that is not only a Japanese dictionary (complete with xyz thousand entries from the <a href="http://edrdg.org/jmdict/edict.html">EDICT</a> files from the Electronic Dictionary Research and Development Group at Monash University), but also lets users login to create flashcard decks, practice the flashcards, and record whether they knew the answer or not.
+						We wrote a <a href="images/jdict/proposal.pdf">project proposal</a> that summarizes the requirements, technologies, compares similar apps, and shows the user interface. I created a functioning <a href="https://xd.adobe.com/view/2160138f-f0bb-43da-582e-bb91bdd270b8-5751/">prototype </a> with AdobeXd to showcase the user experience. Unfortunately, our AWS machine has expired and needs to be set up again, but our our <a href="https://github.com/naomi789/2019_4640">code</a> is available.
+						</p>
+						<p>For this project, I wrote Python scripts that converted the JSON files into MySQL statements ("meta programing") to fill our databases. I learned not everyone uses UTF-8, and I spent a long time working to get all the different coding languages to use Japanese successfully. I designed the flashcard functionality, my collaborator added the ability to sign up/login, and we collaborated on the dictionary functionality.</p>
+						<p> I created user personas, designed user scenarios, created wireframes, and made a functional prototype with AdobeXd. As features became functional on our live site, I designed qualitative user studies, ran them, and analyzed data. Even as we finished the final product, we were gathering data and creating action items that could improve the quality and usability of our site.
+						</p>
+						<h3>Results</h3>
+						<p>
+						We created a fully functional relational database with nine tables that had a combined total of 1.25 million entries, eleven thousand kanji, and tens of thousands of words, some of which had over ten different definitions.
+						I earned an "A" on this project and in this course, as did my collaborator.
+						</p>
+						<p>
+						My collaborator and I created backend features to track whether users got flashcards right and how long they spent thinking about it, but we have not yet created an algorithm to determine how often users should be quizzed on their vocabulary words, how much they should be rewarded for immediately getting an answer correct, or how many times they need to get it right before we can take the word off the rotation for a while. We hope to create a front end that will display some of this data, as well as  statistics about how many words they are studying per day.
+						</p>
 					</div>
 				</section>
 
