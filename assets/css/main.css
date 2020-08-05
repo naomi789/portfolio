@@ -3257,9 +3257,11 @@
 /* Footer */
 
 	#footer {
-		background: #f0f0f0;
+		background: #14661b;
 		padding: 4em 0 6em 0;
 		text-align: center;
+		color: #fff;
+
 	}
 
 		#footer .icons a {
@@ -3267,7 +3269,7 @@
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			opacity: 0.35;
+			opacity: 0.5;
 		}
 
 			#footer .icons a:hover {
@@ -3275,7 +3277,6 @@
 			}
 
 		#footer .copyright {
-			color: #999;
 			font-size: 0.9em;
 			line-height: 1em;
 			margin: 2em 0 0 0;
