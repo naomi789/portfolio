@@ -166,6 +166,8 @@
 		font-size: 1.75em;
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
+		font-weight: bold;
+		color: #6aee9a;
 	}
 
 	h4 {
@@ -3189,7 +3191,7 @@
 		}
 
 		#banner p {
-			font-size: 1.25em;
+			font-size: 2em;
 			margin-bottom: 1.75em;
 		}
 
