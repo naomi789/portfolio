@@ -4,6 +4,7 @@ SITES:
 (Amy's my favorite! note the "external link" logo in her nav bar)
 3. https://codycai.com/
 4. https://wyemchin.webflow.io/
-5. https://www.anastasiaux.com/ (note the "User Research, Usability Testing, Wireframing, Prototyping, Responsive Web Design, Visual Design, Interaction Design" section), 
+5. https://www.anastasiaux.com/ (note the "User Research, Usability Testing, Wireframing, Prototyping, Responsive Web Design, Visual Design, Interaction Design" section)
+6. https://www.karlaleung.com/ (note the simplicity and how she showcases each project)
 RESUMES: 
 https://drive.google.com/file/d/1Qmno0h2xwP5gd5GVv_KRg3VFgYe9l-4e/view
