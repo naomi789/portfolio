@@ -175,7 +175,6 @@
 		font-size: 1.2em;
 		line-height: 1.5em;
 		letter-spacing: 0;
-		font-weight: bold;
 		color: #50c972;
 	}
 
@@ -3315,7 +3314,7 @@
 
 	#cta {
 		background: #1155cc;
-		color: #f9e6df;
+		/*color: #f9e6df;*/
 		padding: 3.5em 0 4em 0;
 		text-align: center;
 	}
