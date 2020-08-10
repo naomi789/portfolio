@@ -41,28 +41,32 @@
 					</header>
 					<div class="box">
 						<h3>Summary</h3>
-						<p>This website is a fully-functioning Japanese-English dictionary that allows users to add any word they look up into flashcard decks. I worked with a team of three software engineers to start with low-fidelity sketches and do iterative usability tests as we developed the website.</p>
+						<p>This website is a fully-functioning Japanese-English dictionary that allows users to add any word they look up into flashcard decks. I worked with a team of three software engineers to start with low-fidelity sketches and do iterative usability tests as we developed the website for a course project.</p>
 						<p>Timeline: May-August 2019</p>
+						<h3>Outline</h3>
+						<ol>
+							<li>The problem</li>
+							<li>Background research</li>
+							<li>Ideation & iteration</li>
+							<li>Final solution</li>
+							<li>Outcome and impact</li>
+						</ol>
+						<h3>1. The Problem</h3>
+						<p>Learning a new language involves looking up new words in a dictionary--- but sometimes students find themselves looking up the same word again and again if they do not learn it. This is particularly difficult for students learning Japanese. In addition to understanding the english meaning of a given word, they will need to learn the pronunciation of the word as well as the written kanji. Looking up new words in a dictionary can be challenging because there are over 2000 kanji and most dictionaries let you look up the kanji by either the pronunciation or by knowing the stroke order of how the character is written.</p>
+						<p>After looking up the word, students need to learn it: but paper flashcards only have two sides, and digital ones often have the same issue. Besides, why should you need to install another app? If you've downloaded a foreign language dictionary, you probably intend to learn the words you're looking up.</p>
 
-						<h3>Project</h3>
-						<!-- <p>Learning a new language involves looking up new words in a dictionary--- but sometimes students find themselves looking up the same word again and again if they do not learn it. This is particularly difficult for students learning Japanese. In addition to understanding the english meaning of a given word, they will need to learn the pronunciation of the word (written in either hiragana or katakana) as well as the written kanji (symbols that represent the meaning of the word, not the pronunciation).</p> -->
-						<p>My team and I created a website that is a Japanese dictionary 
-						<!-- (complete with xyz thousand entries from the <a href="http://edrdg.org/jmdict/edict.html">EDICT</a> files from the Electronic Dictionary Research and Development Group at Monash University) -->
-						, that allows users to login to create flashcard decks, practice the flashcards, and record whether they knew the answer or not. 
+						<h3>2. Background Research</h3>
+						<p>I began by searching online for “best Japanese dictionary app” and “best Japanese flashcard websites”. After reading several posts, I took notes of names that came up more than once and began surveying existing dictionary websites (nihongodict.com and jisho.org) and flashcard websites (quizlet.com). I then looked at Android and iOS apps (A Word, Aedict, Akebi, Anki, Brainscape, Busuu, Cram, English Japanese Dictionary, Flashcards, Flashcards Plus by Chegg, GRE Vocabulary by Magoosh, Imiwa?, Lexilize, Jsho, Japanese by Renzo Inc, Rolandos, StudyBlue, StudyStack, EOW, Takoboto, Tinycards, Vocabulary.com, and Waygo), and Microsoft Phone apps (tango master).</p>
+						<p>For most of these apps, we explored how their search page was before and after a query, whether and how they allowed users to store words, and whether there was any kind of flashcard app. Tango Master and Akebi were the only apps that allowed us to query a dictionary and then add that word to a deck of flashcards. Tango Master’s greatest failure is the fact that the app is only available in the Microsoft store. While Akebi does have the ability to create flashcards, the interface does not allow users to automatically add results from a query to a deck of flashcards, and the search results page was a dated design.</p>
+
+						<h3>3. Ideation & Iteration</h3>
+						<p> I created user personas, designed user scenarios, created wireframes, and made a functional prototype with AdobeXd. As features became functional on our live site, I designed qualitative user studies, ran them, and analyzed data. Even as we finished the final product, we were gathering data and creating action items that could improve the quality and usability of our site.</p>
+						<h3>4. Final Solution</h3>
+						<p>My team and I created a website that is a Japanese dictionary, that allows users to login to create flashcard decks, practice the flashcards, and record whether they knew the answer or not. 
 						We wrote a <a href="images/jdict/proposal.pdf">project proposal</a> that summarizes the requirements, technologies, compares similar apps, and shows the user interface. I created a functioning <a href="https://xd.adobe.com/view/2160138f-f0bb-43da-582e-bb91bdd270b8-5751/">prototype </a> with AdobeXd to showcase the user experience. Unfortunately, our AWS machine has expired and needs to be set up again, but our code is available on <a href="https://github.com/naomi789/2019_4640">GitHub</a>.
 						</p>
 						<p>For this project, I wrote Python scripts that converted the JSON files into MySQL statements (meta programing) to fill our databases. I learned not everyone uses UTF-8, and I spent a long time working to get all the different coding languages to use Japanese successfully. I designed the flashcard functionality, my collaborator added the ability to sign up/login, and we collaborated on the dictionary functionality.</p>
-						</p>
-						<h3>User Studies</h3>
-						<p> I created user personas, designed user scenarios, created wireframes, and made a functional prototype with AdobeXd. As features became functional on our live site, I designed qualitative user studies, ran them, and analyzed data. Even as we finished the final product, we were gathering data and creating action items that could improve the quality and usability of our site.
-
-						<h3>Acomplishments</h3>
-<!-- 						<p>
-						We created a fully functional relational database with nine tables that had a combined total of 1.25 million entries, eleven thousand kanji, and tens of thousands of words, some of which had over ten different definitions. I earned an "A" on this project and in this course, as did my collaborator.
-						</p> -->
-						<p>In addition to writing the code and running the user studies, there are several other features in development. My collaborator and I created backend features to track whether users got flashcards right and how long they spent thinking about it, but we have not yet created an algorithm to determine how often users should be quizzed on their vocabulary words, how much they should be rewarded for immediately getting an answer correct, or how many times they need to get it right before we can take the word off the rotation for a while. We hope to create a front end that will display some of this data, as well as  statistics about how many words they are studying per day.
-						</p>
-					</div>
+						</div>
 						<div class="row">
 							<div class="col-4">
 								<a class="image fit"><img src="images/jdict/dictionary.PNG" alt="dictionary"></a>
@@ -83,6 +87,15 @@
 								<a class="image fit"><img src="images/jdict/back.PNG" alt="back"></a>
 							</div>
 						</div>
+						<div class="box">
+						<h3>5. Outcome& Impact</h3>
+ 						<p>
+						We created a fully functional relational database with nine tables that had a combined total of 1.25 million entries, eleven thousand kanji, and tens of thousands of words, some of which had over ten different definitions. I earned an "A" on this project and in this course, as did my three collaborators.
+						</p>
+						<p>In addition to writing the code and running the user studies, there are several other features in development. My collaborator and I created backend features to track whether users got flashcards right and how long they spent thinking about it, but we have not yet created an algorithm to determine how often users should be quizzed on their vocabulary words, how much they should be rewarded for immediately getting an answer correct, or how many times they need to get it right before we can take the word off the rotation for a while. We hope to create a front end that will display some of this data, as well as  statistics about how many words they are studying per day.
+						</p>
+					</div>
+						
 						<!-- <div class="box"> -->
 
 
