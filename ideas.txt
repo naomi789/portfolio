@@ -35,3 +35,5 @@ PORTFOLIO TIPS:
 1. https://uxdesign.cc/ever-wonder-how-recruiters-look-at-your-design-portfolio-cc8dd1ecb698
 2. https://medium.com/indeed-design/ux-design-portfolio-advice-from-hiring-managers-cdef37aa7207
 3. https://medium.com/facebook-design/5-ways-to-improve-your-design-portfolio-today-eb63e17560dc
+4. https://uxfol.io/
+5. https://careerfoundry.com/en/blog/ux-design/ux-research-portfolio-guide/ (WRITE MY STORY: 1. problem/question, 2. my approach, 3. my process to define objectives and conduct studies, 4. artifacts I created as I produced deliverables, 5. impact/learnings)
