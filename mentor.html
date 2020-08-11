@@ -43,30 +43,16 @@
 						<h3>Summary</h3>
 						<p>The Microsoft <a href="aka.ms/mentor">Mentor</a> program was struggling to help new users find mentors. I ran usability tests and Quantitative surveys; analyzed the data, and created 10 actionable tasks to improve our search and database interface. Four of my 10 recommendations were implemented during the 2020 Hackathon.</p>
 						<p>Timeline: July 2020 Hackathon at Microsoft</p>
-						<!-- <h3>Outline</h3>
-						<ol>
-							<li>The problem</li>
-							<li>Background research</li>
-							<li>Ideation & iteration</li>
-							<li>Final solution</li>
-							<li>Outcome and impact</li>
-						</ol>
-						<h3>The problem</h3>
-						<h3>Background research</h3>
-						<h3>Ideation & iteration</h3>
-						<h3>Final solution</h3>
-						<h3>Outcome and impact</h3> -->
 						<h3>Outline</h3>
 						<ol>
 							<li>The problem</li>
-							<li>Background research</li>
-							<li>Ideation & iteration</li>
+							<li>User studies</li>
+							<li>Surveys</li>
 							<li>Final solution</li>
 							<li>Outcome and impact</li>
 						</ol>
 						<h3>The problem</h3>
 						<p>The internal Microsoft website <a href="aka.ms/Mentor">aka.ms/Mentor</a> has been a hackathon project since 2016, but design was never a priority. I was tasked with finding usability issues and determining if we needed small updates or a total rewrite.</p>
-						<h3>Background research</h3>
 						<p>The goal of Mentor is to help Microsoft employees find mentors. Stakeholders include mentee candidates, mentor candidates, software engineers, and PMs. I determined that the essential tasks for users were the ability to:</p>
 						<ul>
 							<li>Input/edit personal data</li>
@@ -74,21 +60,7 @@
 							<li>Accept or reject a mentorship role</li>
 							<li>Find information about becoming a better mentor/mentee</li>
 						</ul>
-						<p>I ran a survey to identify what factors recent college grads at Microsoft considered when searching for new mentors. I found that 72% of participants were most interested in finding a career mentor and 89% of partcipants were most interested in a traditional mentor.</p>
-						<p>There was less of a consensus when asked to report what factors were the top five for them when picking a mentor: 79% said the mentor's career path, 72% said the mentor's experience, 65% said whether they "clicked" with the mentor, 62% said the mentor's personality, 49% said the mentor's enthusiasm for mentoring. Except for the category "other", which only received one vote, the remaining eight categories all recieved five or more votes.</p>
-						<!-- <a class="image fit"><img src="images/mentor/type.png" alt=""></a>
-						<a class="image fit"><img src="images/mentor/traditional.png" alt=""></a> -->
-						<a class="image fit"><img src="images/mentor/consider.png" alt=""></a>
-						<p></p>
-						<!-- <ul>
-							<li>72% of participants were most interested in finding a career mentor (three participants were most interested in receiving mentoring for hard skills; two for hard skills; one for Microsoft-specific guidance; one for life mentoring; one for "other mentoring").</li>
-							<li>89% of partcipants were most interested in a traditional mentor (two participants were looking for a peer mentor; two reported having no preference; no participants expressed interest in receiving mentorship from someone younger).</li>
-							<li>When asked to select their top five factors of consideration when picking a mentor, 79% said the mentor's career path, 72% said the mentor's experience, 65% said whether they "clicked" with the mentor, 62% said the mentor's personality, 49% said the mentor's enthusiasm for mentoring. Except for the category "other", which only received one vote, the remaining eight categories all recieved five or more votes.</li>
-						</ul> -->
-
-						
-
-						<h3>Ideation & iteration</h3>
+						<h3>User studies</h3>
 						<p>I ran six 30-minute usability studies where I asked users:</p>
 						<ul>
 							<li>Summarize previous mentoring experience; outline ideal mentoring experience</li>
@@ -98,14 +70,49 @@
 							<li>To accept a mentoring request from me; what factors they would consider before accepting a request</li>
 							<li>What they would like to see on the website; where it would be and how it would work</li>
 						</ul>
-						<p>After gathering the data, I analyzed it and made a 30 minute presentation to my fellow hackers. I began by showing a four minute clip of a user trying 14 different queries and getting no results each time. The user got so frustrated with the search interface that he angrily declared "If you weren't here watching me, I would have left the site by now. I'm not getting any search results, and now I feel like mentor is not for me!"</p>
-						<p>After presenting my key findings, I drew up four short term solutions that could be implemented that day to improve the learnability and decrease the risk fatal of errors. I then began drafting long-term solutions that could improve the learnability and satisfaction. 	
-						</p>
+						<a class="image fit"><img src="images/mentor/oldmentor.png" alt=""></a>
+
+						<p>Many participants struggled with the search interface. P5 entered their own name, job title, and location. When the query returned no results, they reported:</p>
+						<blockquote>"I'm a [job title] in [location], and it says they don't have a mentor for me." -P5</blockquote>
+						<!-- <p>After gathering the data, I analyzed it and made a 30 minute presentation to my fellow hackers.  -->
+						<p>After P2 tried entering permutations of their first, middle, and last name into the "name" field, four different job titles, and five locations. But each of their 14 queries returned zero possible mentors, and after three minutes stopped using the software. While P5 and P2 were the only users who quit using the interface, P1 vocalized confusion about before leaving the "name" field blank and P4 used their own name for several queries before they tried leaving the "name" field blank.</p>
+						<p>The remaining four participants (P1, P3, P4, P6) continued in the study by viewing the search results and explaining how they selected a mentor.</p>
+						<a class="image fit"><img src="images/mentor/sweiiresults.png" alt=""></a>
+						<blockquote>"Honestly, I'm just looking at pictures. I feel like I am more likely to choose someone who has a profile picture than someone who doesn't." -P4</blockquote>
+						<p>Each of the four users expressed interest in seeing other fields shown on the results page, and P1 expressed frustration that they had already filtered users by the three fields that were shown for each possible mentor. I gathered the suggestions and used them to create a multiple choice options on a survey about factors to consider when selecting a mentor.</p>
+						<p>After viewing several profiles, I asked participants if they were ready to select a mentor. Three of the four participants reported they were not, and I asked them to pretend to request me as their mentor. Each of the four participants were hesitant when I asked them to guess what would happen when they clicked on the "Apply for mentorship" button. One guessed an email would be sent to the mentor, another assumed that they would need to login first (they weren't aware they were automatically logged in already), a third was hopeful that they could write a note to customize the request, and the fourth participant assumed that their own manager would be notified and then decide whether they were permitted to ask for a mentor.</p>
+						<p>Some users realized at this point that they already had a profile, and (correctly) guessed that some of their data might be sent over when they requested mentorship. I asked participants to make any wanted changes to their profile. At this point, two participants vocalized confusion over how their profiles were auto-populated with data (when did I make an account? What is "Delve"? If this data came from Microsoft, will changing it here impact other accounts?). While looking at their profile page, there was also disagreement over what the "stop mentoring" button does (stop being mentored, or stop mentoring? Will there be a confirmation box?). </p>
+						<p>Along the way, users mused about whether they were searching for a mentor "correctly". P4 wasn't sure what attributes would be good for a mentor to have. P3 wasn't sure if she should request that the person that she knew be her mentor, or if she should pick a stranger. P1 spent twice as long as other participants drafting their message asking for mentorship. At the end of the study, when I asked users where they would go to find information about becoming a better mentor or mentee, two users admitted they were not likely to go search for advice, but said that advice should be built into the software along the way.</p>
+
+						<h3>Surveys</h3>
+						<p>I ran a survey to identify what factors recent college grads at Microsoft considered when searching for new mentors. I found that 72% of participants were most interested in finding a career mentor and 89% of partcipants were most interested in a traditional mentor.</p>
+						<!-- <a class="image fit"><img src="images/mentor/type.png" alt=""></a>
+						<a class="image fit"><img src="images/mentor/traditional.png" alt=""></a> -->
+						<a class="image fit"><img src="images/mentor/consider.png" alt=""></a>
+						<p></p>
+						<p>There was less of a consensus when asked to report what factors were the top five for them when picking a mentor: 79% said the mentor's career path, 72% said the mentor's experience, 65% said whether they "clicked" with the mentor, 62% said the mentor's personality, 49% said the mentor's enthusiasm for mentoring. Except for the category "other", which only received one vote, the remaining eight categories all recieved five or more votes.</p>
+
+						<!-- <ul>
+							<li>72% of participants were most interested in finding a career mentor (three participants were most interested in receiving mentoring for hard skills; two for hard skills; one for Microsoft-specific guidance; one for life mentoring; one for "other mentoring").</li>
+							<li>89% of partcipants were most interested in a traditional mentor (two participants were looking for a peer mentor; two reported having no preference; no participants expressed interest in receiving mentorship from someone younger).</li>
+							<li>When asked to select their top five factors of consideration when picking a mentor, 79% said the mentor's career path, 72% said the mentor's experience, 65% said whether they "clicked" with the mentor, 62% said the mentor's personality, 49% said the mentor's enthusiasm for mentoring. Except for the category "other", which only received one vote, the remaining eight categories all recieved five or more votes.</li>
+						</ul> -->
+
+						
+
+						
+
+
+						<!-- <p>After presenting my key findings, I drew up four short term solutions that could be implemented that day to improve the learnability and decrease the risk fatal of errors. I then began drafting long-term solutions that could improve the learnability and satisfaction. 	 -->
 						<h3>Final solution</h3>
 						<section id="main" class="container">
 							<span class="image featured"><img src="images/mentor/newmentor.png" alt=""/></span>
 						</section>
-						<h3>Outcome and impact</h3>						<p>Three of the four changes I recommended for immediate implemention have been completed; I will be running further usability testing before we implement the new email notification templates. I've joined the year round team that works on this tool so that I can help as we discuss solutions that are beyond the scope of a three day hackathon.</p>
+						<h3>Outcome and impact</h3>						
+						<p>I hypothesize that 66% of users typed in their own name because they expected to see a login page, but further research would need to be done on that subject. Users expect to login when they first access a new site, but login screens can be a deterrent for users who do not want to make more accounts or try to remember their password. Before asking the engineering time to commit hours to making signup or login pages, I suggested a temporary workaround: clarifying that we were asking users to search for a mentor's name and that the field was optional. The changes to the three search fields were pushed before the hackathon ended.
+						</p>
+						<p>I also recommended adding a "pencil" icon to the left of the button that allows users to edit their profile. I was not able to measure mouse movements, but users were slow to click on the verbose "Edit my profile via Delve" button. </p>
+						<p>I am currently running further usability testing before we implement new email notification templates. I've joined the year round team that works on this tool so that I can help as we discuss solutions that are beyond the scope of a three day hackathon.</p>
 					</div>
 				</section>
 
