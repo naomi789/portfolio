@@ -74,28 +74,25 @@
 						<br><br>
 						<p>We created a list of requirements for our solution.</p>
 						<ol>
-							<li>The home page will contain information about what the site does and who it is for.</li>
-							<li>The home page will contain a search bar, where users can type in either English, Kanji, Hiragana, Katakana, or Romaji, and be redirected to a search results page. The search page will also dynamically display the recent query history upon tapping the search bar.</li>
-							<li>The search results page will display rows of matches. Each row will contain the english word, kanji element, hiragana/katakana, romaji, as well as other information about the word entry. To the right of each row will be a button for adding the word entry to a new or preexisting list. Clicking the button will dynamically display a modal dialog box in which one can select a list to add the word to, or type a name for a new list to which to add the word.</li>
-							<li>The list of lists page will display a list of the existing lists. New users will find a number of predefined vocabulary lists of varying difficulty, whose words correspond to those used in standard fluency exams. Clicking a list will bring the user to that list’s page. Clicking ‘edit’ will dynamically change the page by adding symbols to the side of each list for deleting the list, and adding an entry at the top of the list for adding a new list. Users can type in the ‘type to filter’ bar to dynamically narrow the list of vocab lists.</li>
-							<li>Each list’s page will display the words in that list and an edit button. Upon clicking the edit button, the page dynamically changes to allow for deleting words and adding new words. There is also a small flash card simulation at the top of this page, which can be scrolled through and clicked to flip the flash cards. Clicking the fullscreen button will direct the user to the flashcard/quiz page.</li>
-							<li>On the flashcard/quiz page, the user can study their words by clicking the arrows to dynamically scroll through the list in a flashcard format. Clicking the flashcard itself will dynamically flip the flashcard, revealing the translated version. A settings area of this page will eventually be implemented.</li>
-							<li>Users can sign up for free accounts so that they can create lists of vocabulary.</li>
+							<li>Search functionality works with English or Japanese writing systems (Kanji, Hiragana, Katakana, or Romaji).</li>
+							<li>Recent queries should be shown as history, but users should be able to delete words.</li>
+							<li>Search results should appear below the search bar. Each row will contain the english word, kanji element, hiragana/katakana, romaji, as well as other information about the word entry. To the right of each row will be a "+" button for adding the word entry to a new or preexisting list.</li>
+							<li>Users must sign up for free accounts before they create a vocab list/flashcard deck.</li>
+							<li>Users should be able to use a filter to view a list of all public vocab lists and their private lists. Users should be able to delete their private vocab lists. Clicking a list will bring the user to that list’s page. </li>
+							<li>Each list’s page will display the words in that list and an edit button. The edit button allows users to delete words. From this page, users should be able to start going through flashcards for the words in the deck.</li>
+							<li>Once users have started their flashcards/quiz, users should be able to see the reverse side of the page with the click of a button, and self-report if they got the answer right.</li>
+							<li>There should be a "settings" page for each flashcard deck where users can see how often they have been quized on each word, how often they get the answer correct, and how long it took them to get the right answer. Using this data, the app should determine which words need to be studied and when.</li>
 						</ol>
 
 						<p>We created paper prototypes and ran five 15 minute usability studies where we asked users to look up a word and add it to a flashcard deck. After a few design tweaks, we created clickable wireframes using Balsamiq. After running the same study again, we upgraded to a functional <a href="https://xd.adobe.com/view/2160138f-f0bb-43da-582e-bb91bdd270b8-5751/">prototype </a> made in AdobeXd.</p>
 						<!-- <p> I created user personas, designed user scenarios, created wireframes, and made a functional prototype with AdobeXd. As features became functional on our live site, I designed qualitative user studies, ran them, and analyzed data. Even as we finished the final product, we were gathering data and creating action items that could improve the quality and usability of our site.</p> -->
 						<h3>4. Final Solution</h3>
-						<p>I wrote Python scripts that converted the JSON files into MySQL statements, used JavaScript to access the database, and displayed the results in HTML. My teammates and I got a minimum viable product functioning (signup/login and logout, the search/results page, displays for the flashcard decks and flashcards). From there, we started working on the CSS. Our code is available on <a href="https://github.com/naomi789/2019_4640">GitHub</a>.
-
-							<!-- to fill our databases. I learned not everyone uses UTF-8, and I spent a long time working to get all the different coding languages to use Japanese successfully. I designed the flashcard functionality, my collaborator added the ability to sign up/login, and we collaborated on the dictionary functionality. -->
-						<!-- <p>My team and I created a website that is a Japanese dictionary, that allows users to login to create flashcard decks, practice the flashcards, and record whether they knew the answer or not.  -->
-						<!-- We wrote a <a href="images/jdict/proposal.pdf">project proposal</a> that summarizes the requirements, technologies, compares similar apps, and shows the user interface. I created a functioning <a href="https://xd.adobe.com/view/2160138f-f0bb-43da-582e-bb91bdd270b8-5751/">prototype </a> with AdobeXd to showcase the user experience. Unfortunately, our AWS machine has expired and needs to be set up again, but our code is available on <a href="https://github.com/naomi789/2019_4640">GitHub</a>. -->
-						</p>
+						<p>I wrote Python scripts that converted the JSON files into MySQL statements, used JavaScript to access the database, and displayed the results in HTML. Our fully functional relational database with nine tables that had a combined total of 1.25 million entries, eleven thousand kanji, and tens of thousands of words, some of which had over ten different definitions. My teammates and I got a minimum viable product functioning (signup/login and logout, the search/results page, displays for the flashcard decks and flashcards). From there, we started working on the CSS. Our code is available on <a href="https://github.com/naomi789/2019_4640">GitHub</a>. I earned an "A" on this project and in this course, as did my three collaborators.</p>
+						<p>We were able to complete the first seven of eight requirements. We were not able to complete the eighth requirement on time (a page that shows how often a user has been quized on each word, how often they get the answer correct, and how long it took them to get the right answer), but we were able to create backend features to track whether users got flashcards right and how long they spent thinking about it. We have not yet created an algorithm to determine how often users should be quizzed on their vocabulary words, how much they should be rewarded for immediately getting an answer correct, or how many times they need to get it right before we can take the word off the rotation for a while. We hope to create a front end that will display some of this data, as well as  statistics about how many words a user is studying per day.</p> 
 						<h3>5. Outcome& Impact</h3>
-						<p>We identified key reasons why students failed to learn new vocabulary, then created our website in order to streamline the process by combining dictionary and flashcard functionality and by making vocab lists public so students can share them.
- 						<p>
-						<!-- <p>For this project, </p> -->
+						<p>We identified key reasons why students failed to learn new vocabulary, then created our website in order to streamline the process by combining dictionary and flashcard functionality and by making vocab lists public so students can share them. </p>
+						
+						<!-- <p>In addition to writing the code and running the user studies, there are several other features in development.</p> -->
 						</div>
 						<div class="row">
 							<div class="col-4">
@@ -117,16 +114,6 @@
 								<a class="image fit"><img src="images/jdict/back.PNG" alt="back"></a>
 							</div>
 						</div>
-						<!-- <div class="box"> -->
-
-						<!-- We created a fully functional relational database with nine tables that had a combined total of 1.25 million entries, eleven thousand kanji, and tens of thousands of words, some of which had over ten different definitions. I earned an "A" on this project and in this course, as did my three collaborators. 
-						</p>
-						<p>In addition to writing the code and running the user studies, there are several other features in development. My collaborator and I created backend features to track whether users got flashcards right and how long they spent thinking about it, but we have not yet created an algorithm to determine how often users should be quizzed on their vocabulary words, how much they should be rewarded for immediately getting an answer correct, or how many times they need to get it right before we can take the word off the rotation for a while. We hope to create a front end that will display some of this data, as well as  statistics about how many words they are studying per day.</p>-->
-					<!-- </div> -->
-						
-						<!-- <div class="box"> -->
-
-
 					</div>
 				</section>
 
