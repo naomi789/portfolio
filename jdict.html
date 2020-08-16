@@ -10,6 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+<!-- 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -63,6 +66,14 @@
 						<p>We anticipated most of our users would be high school or university students enrolled in language classes. Instead of creating user personas, we found ten different students who were either studying Japanese, or native Japanese speakers who were learning English, who could participate in interviews and studies. We also interviewed a Japanese language professor in order to gain insight on student language study.</p>
 						<p>We created a problem scenario storyboard based on interviews from students.</p>
 						<!-- 1. Student looks at long vocab list; doesn't want to make paper flashcards (environmental concerns). 2. Uses digital ones online from two years ago, doesn't realize professor changed about 10% of the words for this unit. 3. Makes their own digital ones after struggling to find software that does "triangle" flashcards. 4. Doesn't actually want to study the vocab list bc they think they know most of the words 5. Over-achiver student looks up words they come across while reading a news article online, but forgets to add the word to their study list. -->
+						
+				        <!-- <div class="carousel">
+				            <button id="left-btn"><i class="arrow"></i></button>
+				            <img id="carousel-img" src="" alt="">
+				            <button id="right-btn"><i class="arrow"></i></button>
+				        </div>
+						<br> -->
+
 						<p>We created paper prototypes and ran five 15 minute usability studies where we asked users to look up a word and add it to a flashcard deck. After a few design tweaks, we created clickable wireframes using Balsamiq. After running the same study again, we upgraded to a functional <a href="https://xd.adobe.com/view/2160138f-f0bb-43da-582e-bb91bdd270b8-5751/">prototype </a> made in AdobeXd.</p>
 						<!-- <p> I created user personas, designed user scenarios, created wireframes, and made a functional prototype with AdobeXd. As features became functional on our live site, I designed qualitative user studies, ran them, and analyzed data. Even as we finished the final product, we were gathering data and creating action items that could improve the quality and usability of our site.</p> -->
 						<h3>4. Final Solution</h3>
@@ -134,6 +145,41 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="js/code_js.js"></script>
+     
+		    <script>
+		    const img = document.getElementById('carousel-img');
+			const rightBtn = document.getElementById('right-btn');
+			const leftBtn = document.getElementById('left-btn');
+
+			let pictures = ['images/mentor/traditional.PNG', 'images/mentor/type.PNG', 'images/jdict/lists.PNG'];
+
+			img.src = pictures[0];
+			let position = 0;
+
+			moveRight = () => {
+			    if (position >= pictures.length - 1) {
+			        position = 0
+			        img.src = pictures[position];
+			        return;
+			    }
+			    img.src = pictures[position + 1];
+			    position++;
+			}
+
+			moveLeft = () => {
+			    if (position < 1) {
+			        position = pictures.length - 1;
+			        img.src = pictures[position];
+			        return;
+			    }
+			    img.src = pictures[position - 1];
+			    position--;
+			}
+
+			rightBtn.addEventListener("click", moveRight);
+			leftBtn.addEventListener("click", moveLeft);
+			</script>
 
 	</body>
 </html>
