@@ -36,31 +36,33 @@
 			<!-- Main -->
 				<section id="main" class="container">
 					<header>
-						<h2>Mentor</h2>
-						<p>For Microsoft Employees</p>
+						<h2>aka.ms/Mentor</h2>
+						<p>The web database for Microsoft employees</p>
 					</header>
 					<div class="box">
 						<h3>Summary</h3>
-						<p>The Microsoft <a href="aka.ms/mentor">Mentor</a> program was struggling to help new users find mentors. I ran usability tests and a survey; analyzed the data, and created 10 actionable tasks to improve our search and database interface. Four of my 10 recommendations were implemented during the 2020 Hackathon.</p>
-						<p>Timeline: July 2020 Hackathon at Microsoft</p>
+						<p>I ran usability tests and quantitative surveys; analyzed the data, and created 10 actionable tasks to improve the search and database interface for the Microsoft <a href="aka.ms/mentor">aka.ms/Mentor</a> program. I ran an exploratory survey regarding future features; results are being considered as we discuss future development plans. Four of my 10 recommendations were implemented during the 2020 Hackathon.</p>
+
+						<!-- <p>The Microsoft <a href="aka.ms/mentor">Mentor</a> program was struggling to help new users find mentors. I ran usability tests and a survey; analyzed the data, and created 10 actionable tasks to improve our search and database interface. Four of my 10 recommendations were implemented during the 2020 Hackathon.</p> -->
+						<p>Timeline: three-day Hackathon at Microsoft (July 2020)</p>
 						<h3>Outline</h3>
 						<ol>
 							<li>The problem</li>
-							<li>User studies</li>
+							<li>Usability studies</li>
 							<li>Surveys</li>
 							<li>Final solution</li>
 							<li>Outcome and impact</li>
 						</ol>
 						<h3>The problem</h3>
-						<p>The internal Microsoft website <a href="aka.ms/Mentor">aka.ms/Mentor</a> has been a hackathon project since 2016, but design had not been a priority. I was tasked with finding usability issues and determining if we needed small updates or a new UX.</p>
+						<p>The internal Microsoft website Mentor has been a hackathon project since 2016, but users were still reporting difficulty finding mentors. I was tasked running usability studies to look for possible issues.</p>
 						<p>The goal of Mentor is to help Microsoft employees find mentors. Stakeholders include mentee candidates, mentor candidates, software engineers, and PMs. I determined that the essential tasks for users were the ability to:</p>
 						<ul>
-							<li>Input/edit personal data</li>
-							<li>Search, select, and request mentorship</li>
+							<li>Input and edit personal data</li>
+							<li>Search for and select a mentor; request mentorship</li>
 							<li>Accept or reject a mentorship role</li>
 							<li>Find information about becoming a better mentor/mentee</li>
 						</ul>
-						<h3>User studies</h3>
+						<h3>Usability studies</h3>
 						<p>I ran six 30-minute usability studies where I asked users:</p>
 						<ul>
 							<li>Summarize previous mentoring experience; outline ideal mentoring experience</li>
@@ -80,8 +82,11 @@
 						<a class="image fit"><img src="images/mentor/sweiiresults.png" alt=""></a>
 						<blockquote>"Honestly, I'm just looking at pictures. I feel like I am more likely to choose someone who has a profile picture than someone who doesn't." -P4</blockquote>
 						<p>Each of the four users expressed interest in seeing other fields shown on the results page, and P1 expressed frustration that they had already filtered users by the three fields that were shown for each possible mentor. I gathered the suggestions and used them to create a multiple choice options on a survey about factors to consider when selecting a mentor.</p>
-						<p>After viewing several profiles, I asked participants if they were ready to select a mentor. Three of the four participants reported they were not, so I asked them to pretend to request me as their mentor. Each of the four participants were hesitant when I asked them to guess what would happen when they clicked on the "Apply for mentorship" button. One guessed an email would be sent to the mentor, another assumed that they would need to login first (they weren't aware they were automatically logged in already), a third was hopeful that they could write a note to customize the request, and the fourth participant assumed that their own manager would be asked to decide whether they were permitted to ask for a mentor.</p>
-						<p>Some users realized at this point that they already had a profile, and (correctly) guessed that some of their data might be sent over when they requested mentorship. I asked participants to make any wanted changes to their profile. At this point, two participants vocalized confusion over how their profiles were auto-populated with data (when did I make an account? What is "Delve"? If this data came from Microsoft, will changing it here impact other accounts?). While looking at their profile page, there was also disagreement over what the "stop mentoring" button does (stop being mentored, or stop mentoring? Will there be a confirmation box? Can I undo it if I accidentally click on it?). </p>
+						<p>After viewing several profiles, I asked participants to request mentorship. Each of the four participants were hesitant when I asked them to guess what would happen when they clicked on the "Apply for mentorship" button. One guessed an email would be sent to the mentor, another assumed that they would need to login first (they weren't aware they were automatically logged in already), a third was hopeful that they could write a note to customize the request, and the fourth participant assumed that their own manager would be asked to decide whether they were permitted to ask for a mentor.</p>
+						<a class="image fit"><img src="images/mentor/mentorprofile.png" alt=""></a>
+						<p>Some users realized at this point that they already had a profile, and (correctly) guessed that some of their data might be sent over when they requested mentorship. I asked participants to make any wanted changes to their profile. At this point, two participants vocalized confusion over how their profiles were auto-populated with data (when did I make an account? What is "Delve"? If this data came from their employer, would changing it here impact other accounts?).</p> 
+						<p>While looking at their profile page, there was also disagreement over what the "stop mentoring" button does (stop being mentored, or stop mentoring? Will there be a confirmation box? Can I undo it if I accidentally click on it?). </p>
+						<a class="image fit"><img src="images/mentor/mentee.png" alt=""></a>
 						<p>Along the way, users mused about whether they were searching for a mentor "correctly". P4 wasn't sure what attributes would be good for a mentor to have. P3 wasn't sure if she should request that the person that she knew be her mentor, or if she should pick a stranger. P1 spent twice as long as other participants drafting their message asking for mentorship. At the end of the study, when I asked users where they would go to find information about becoming a better mentor or mentee, two users admitted they were not likely to go search for advice, and one said that advice should be built into the software along the way.</p>
 
 						<h3>Surveys</h3>
@@ -105,12 +110,18 @@
 
 						<!-- <p>After presenting my key findings, I drew up four short term solutions that could be implemented that day to improve the learnability and decrease the risk fatal of errors. I then began drafting long-term solutions that could improve the learnability and satisfaction. 	 -->
 						<h3>Final solution</h3>
-						<section id="main" class="container">
-							<span class="image featured"><img src="images/mentor/newmentor.png" alt=""/></span>
-						</section>
+						<p>The old interface is shown on the left; a close up of the new one is shown on the right where the search fields have been re-named to provide clarity. </p>
+						<div class="row">
+							<div class="col-6">
+								<span class="image featured"><img src="images/mentor/oldmentor.png" alt=""/></span>
+							</div>
+							<div class="col-6">
+								<span class="image featured"><img src="images/mentor/smallmentor.png" alt=""/></span>
+							</div>
+						</div>
+						<br>
 						<h3>Outcome and impact</h3>						
-						<p>I hypothesize that 66% of users typed in their own name because they expected to see a login page, but further research would need to be done on that subject. Users expect to login when they first access a new site, but login screens can be a deterrent for users who do not want to make more accounts or try to remember their password. Before asking the engineering time to commit hours to making signup or login pages, I suggested a temporary workaround: clarifying that we were asking users to search for a mentor's name and that the field was optional. The changes to the three search fields were pushed before the hackathon ended.
-						</p>
+						<p>Realizing that many users typed their own information into the search boxes, I recommended that we re-name the search fields to clarify that the fields are not for themself, but for their mentors. Noting that each field is optional will clarify that when results do not come up, users can try a query with an empty field. This was a quick fix that was easy to implement during the hackathon. In a longer term project, I would have created a prototype where users login before accessing the search page. While login screens can be a deterrent for users who do not want to make more accounts or try to remember their password, users expect to login when they first access a new site.</p>
 						<p>I also recommended adding a "pencil" icon to the left of the button that allows users to edit their profile. I was not able to measure mouse movements, but users were slow to click on the verbose "Edit my profile via Delve" button. </p>
 						<p>I am currently running further usability testing before we implement new email notification templates. I've joined the year round team that works on this tool so that I can help as we discuss solutions that are beyond the scope of a three day hackathon.</p>
 					</div>
