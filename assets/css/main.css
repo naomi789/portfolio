@@ -2266,7 +2266,7 @@
 		}
 
 		.box.alt {
-			background: none !important;
+			/*background: none !important;*/
 			border-radius: 0 !important;
 			box-shadow: none !important;
 			margin: 0 0 2em 0;
@@ -2299,7 +2299,7 @@
 				}
 
 					.box.features .features-row section:nth-child(2n):before {
-						background: #e5e5e5;
+						/*background: #e5e5e5;*/
 						content: '';
 						display: block;
 						height: 100%;
@@ -2681,6 +2681,9 @@
 		margin: 0 0 2em 0;
 		width: 100%;
 	}
+		.highlight {
+			background-color: #f8f8f8;
+		}
 
 		table tbody tr {
 			border: solid 1px #e5e5e5;
@@ -2688,16 +2691,16 @@
 			border-right: 0;
 		}
 
-			table tbody tr:nth-child(2n + 1) {
+			/*table tbody tr:nth-child(2n + 1) {
 				background-color: #f8f8f8;
-			}
+			}*/
 
 		table td {
 			padding: 0.75em 0.75em;
 		}
 
 		table th {
-			color: #646464;
+			/*color: #646464;*/
 			font-size: 0.9em;
 			font-weight: 300;
 			padding: 0 0.75em 0.75em 0.75em;

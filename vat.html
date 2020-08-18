@@ -47,24 +47,143 @@
 						<h3>Outline</h3>
 						<ol>
 							<li>The problem</li>
-							<li>Background research</li>
+							<li>Previous research</li>
 							<li>User studies</li>
 							<li>Outcome and impact</li>
 						</ol>
 						<h3>The problem</h3>
 						<p>Training classifiers for human activity recognition systems often relies on large corpora of annotated sensor data. Crowd sourcing is one way to collect and annotate large amounts of sensor data, but is often completed by unskilled or inexperienced workers. Non-expert annotators sometimes struggle with: 1) data acquisition and annotation, 2) annotating reliably, and 3) inaccurate results that do not yield generalizable event classifiers. </p>
 
-						<h3>Background research</h3>
-						<p>My team created software that allowed users to annotate events as they watch data and video. This screenshot shows a user waiting for the next "run" or "skip" event as they annotate data for a specialized pedometer for athletes. We used this interface, as well as a version without video and version without data.</p>
-						<p>To my team's surprise, we found that having video did not always make users more accurate/efficient.</p>
+						<h3>Previous research</h3>
+						<p>We created our own D+V annotation interfacewe called VAT (Video Annotation Tool). This interface had three modes: one showing the datatime series and controls, which we call “data”, another with the video images and controls, which we call “video”,and one with both the data time series and the video images, which we call “both.” All three modes includedinterface elements for adding, modifying or deleting an event annotationThis screenshot shows a user waiting for the next "run" or "skip" event as they annotate data for a specialized pedometer for athletes. We used this interface, as well as a version without video and version without data.</p>
+						<p>To my team's surprise, we found that having video did not always make users more accurate. We discuss this research in two papers. I am second author on our <a href="https://dl.acm.org/doi/abs/10.1145/3267305.3267507">UbiComp '18 paper</a> and first author on our chapter in the book <a href="https://link.springer.com/chapter/10.1007/978-3-030-13001-5_7">Human Activity Sensing</a>. Through this research, we formed two hypothesis:</p>
+						<ol>
+							<li>Video seems helpful in allowing one to discover patterns in the data which correspond to activity events.We refer to this as a “Rosetta Stone” effect.</li> 
+							<li>Data is useful in moving quickly through the events to find event boundaries. We refer to this as “indexing".</li>
+						</ol>
+						<p>I designed a user study, analyzed data, and drafted a paper that explored these two hypothesis. Our paper is currently in revision (June 2020). </p>
 						<span class="image featured"><img src="images/vat/vat_gui.png" alt=""/></span>
 						<h3>User studies</h3>
-						<p>For this project I designed, ran, and evaluated data from an IRB-approved study to explore whether users could collect video and data, as well as produce annotations suitable for machine learning.</p>
-
+						<!-- <p>For this project I designed, ran, and evaluated data from an IRB-approved study to explore whether users could collect video and data, as well as produce annotations suitable for machine learning.</p> -->
+						<p>I measured efficiency by giving participants a fixed amount of time in which to do their work, which reduced the length of the study and allowed us to compare completion rate rather than time tocompletion. Enforcing a time limit prevented us from seeing decreased efficiency due to fatigue. I also measured accuracy, which I split into two parts: correctly identifying the event type and correctly identifying the bounds (beginning and ending) of an event. I measured the accuracy of event boundary annotations using an asynchronous continuous time model, rather than Krippendorff’s alpha (a metric which is artificially inflated if the sensor data include long periods of time in which nothing happens, or long periods during which a single event happens, and the annotatorscorrectly label those long time periods). I was more interested in how annotators handled the boundaries at the start and end of an event.</p>
+						<p>I calculated a Z score to determine that we would need 60 partcipants, and designed the study so that 15 people could participate at once (the size of the computer lab I had access to). Participants were recruited from on-campus advertisements. All participants received $15 US for their participation. I told participants that the top 1/3 would of performers would receive an additional $40 US, so participants were highly motivated to be as accurate and efficient as possible in that window of time. I told participants that they did not need to find the exact boundary, but that a small margin of error (less than 0.5 seconds) was acceptable.</p>
+						<p>I began by showing participants a three minute training video about the purpose of annotating data for machine learning algorithms in order to create prototypes and then a three minute video introducing them to the VAT interface. Each participant performed 4 annotation tasks with different interfaces. The datasets and interface types were counterbalanced, as shown in the table below. In each task, participants used the interface with both video and data first, followed by either the data only or video only interface, and concluding with the third interface type.</p>
+						</ol>
+						<div class="table-wrapper">
+							<table class="alt">
+								<thead>
+									<tr>
+										<th></th>
+										<th>Group A</th>
+										<th>Group B</th>
+										<th>Group C</th>
+										<th>Group D</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="highlight">
+										<th>Practice Task</th>
+										<td>Cane</td>
+										<td>Cane</td>
+										<td>Cane</td>
+										<td>Cane</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td>Both</td>
+										<td>Both</td>
+										<td>Both</td>
+										<td>Both</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td>Only Video</td>
+										<td>Only Data</td>
+										<td>Only Video</td>
+										<td>Only Data</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td>Only Data</td>
+										<td>Only Video</td>
+										<td>Only Data</td>
+										<td>Only Video</td>
+									</tr>
+									<tr class="highlight">
+										<th>First Task</th>
+										<td>Run</td>
+										<td>Run</td>
+										<td>Run</td>
+										<td>Run</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td>Both</td>
+										<td>Both</td>
+										<td>Both</td>
+										<td>Both</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td>Only Video</td>
+										<td>Only Data</td>
+										<td>Only Video</td>
+										<td>Only Data</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td>Only Data</td>
+										<td>Only Video</td>
+										<td>Only Data</td>
+										<td>Only Video</td>
+									</tr>
+									<tr class="highlight">
+										<th>Second Task</th>
+										<td>Pills</td>
+										<td>Pills</td>
+										<td>Pills</td>
+										<td>Pills</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td>Both</td>
+										<td>Both</td>
+										<td>Both</td>
+										<td>Both</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td>Only Video</td>
+										<td>Only Data</td>
+										<td>Only Video</td>
+										<td>Only Data</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td>Only Data</td>
+										<td>Only Video</td>
+										<td>Only Data</td>
+										<td>Only Video</td>
+									</tr>
+									<tr class="highlight">
+										<th>Third Task</th>
+										<td>Run</td>
+										<td>Run</td>
+										<td>Pills</td>
+										<td>Pills</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td>Only Data</td>
+										<td>Only Data</td>
+										<td>Only Video</td>
+										<td>Only Video</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
 						<h3>Outcome and impact</h3>
 						<p>We found that adding synchronized video to sensor data for labeling creates a more intuitive labeling experience and supports increased precision in labeling. This approach allows designers to quickly create machine learning models for physical interactive devices which must recognize events in the physical world. We have run several user studies to document behaviour of non-expert users in the context of annotating physical event and to demonstrate the advantages of our approach.
-						</p>
-						<p>I am second author on our <a href="https://dl.acm.org/doi/abs/10.1145/3267305.3267507">UbiComp '18 paper</a> and first author on our chapter in the book <a href="https://link.springer.com/chapter/10.1007/978-3-030-13001-5_7">Human Activity Sensing</a> which explain our original work. A third paper is in the works, which elaborates on when video is not beneficial for data annotation.
 						</p>
 					</div>
 				</section>
