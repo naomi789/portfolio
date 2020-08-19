@@ -53,16 +53,18 @@
 							<li>impact</li>
 						</ol>
 						<h3>The problem</h3>
-						<p>Training classifiers for human activity recognition systems often relies on large corpora of annotated sensor data. Crowd sourcing is one way to collect and annotate large amounts of sensor data, but is often completed by unskilled or inexperienced workers. Non-expert annotators sometimes struggle with: 1) data acquisition and annotation, 2) annotating reliably, and 3) inaccurate results that do not yield generalizable event classifiers. </p>
-
+						<p>Training classifiers for human activity recognition systems often relies on large corpora of annotated sensor data. This video introduces our Video Annotation Tool which lets users gather data and annotate it so they can create prototypes. </p>
+						<center>
+		    			<iframe width="95%" height="400" src="https://www.youtube.com/embed/bhVvr1DPUDA" frameborder="0" allowfullscreen ng-show="showvideo"></iframe>
+		    			</center>
+		    			<br>
 						<h3>Previous research</h3>
-						<p>We created our own D+V annotation interfacewe called VAT (Video Annotation Tool). This interface had three modes: one showing the datatime series and controls, which we call “data”, another with the video images and controls, which we call “video”,and one with both the data time series and the video images, which we call “both.” All three modes includedinterface elements for adding, modifying or deleting an event annotationThis screenshot shows a user waiting for the next "run" or "skip" event as they annotate data for a specialized pedometer for athletes. We used this interface, as well as a version without video and version without data.</p>
-						<p>To my team's surprise, we found that having video did not always make users more accurate. We discuss this research in two papers. I am second author on our <a href="https://dl.acm.org/doi/abs/10.1145/3267305.3267507">UbiComp '18 paper</a> and first author on our chapter in the book <a href="https://link.springer.com/chapter/10.1007/978-3-030-13001-5_7">Human Activity Sensing</a>. Through this research, we formed two hypothesis:</p>
+						<p>My team anticipated that allowing users to see video and data together would make users more accurate and efficient annotators. To my team's surprise, we found that having video did not always make users more accurate (I am second author on our <a href="https://dl.acm.org/doi/abs/10.1145/3267305.3267507">UbiComp '18 paper</a> and first author on our chapter in the book <a href="https://link.springer.com/chapter/10.1007/978-3-030-13001-5_7">Human Activity Sensing</a>). Through this research, we formed two hypothesis:</p>
 						<ol>
 							<li>Video seems helpful in allowing one to discover patterns in the data which correspond to activity events.We refer to this as a “Rosetta Stone” effect.</li> 
 							<li>Data is useful in moving quickly through the events to find event boundaries. We refer to this as “indexing".</li>
 						</ol>
-						<p>I designed a user study, analyzed data, and drafted a paper that explored these two hypothesis. Our paper is currently in revision (June 2020). </p>
+						<p>I designed a user study, analyzed data, and drafted a paper that explored these two hypothesis. As of June 2020, our paper is currently in revision. </p>
 						<span class="image featured"><img src="images/vat/vat_gui.png" alt=""/></span>
 						<h3>User studies</h3>
 						<!-- <p>For this project I designed, ran, and evaluated data from an IRB-approved study to explore whether users could collect video and data, as well as produce annotations suitable for machine learning.</p> -->
