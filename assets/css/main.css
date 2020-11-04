@@ -2028,14 +2028,14 @@
 		font-style: italic;
 	}
 
-	header h2 + p {
+	/* header h2 + p {
 		font-size: 1.25em;
 		margin-top: -1em;
 		line-height: 1.5em;
 	}
 
 	header h3 + p {
-		/*font-size: 1.1em;*/
+		font-size: 1.1em;
 		margin-top: -0.85em;
 		line-height: 1.5em;
 	}
@@ -2046,7 +2046,7 @@
 		font-size: 0.8em;
 		margin-top: -0.5em;
 		line-height: 1.5em;
-	}
+	} */
 
 	header.major {
 		padding: 1em 0;
@@ -2059,10 +2059,11 @@
 
 		header.major p {
 			display: inline-block;
-			border-top: solid 2px #e5e5e5;
+			/* worth adding if intro is just one p */
+			/* border-top: solid 2px #e5e5e5; */
 			color: #777;
 			margin: 1.5em 0 0 0;
-			padding: 1.5em 0 0 0;
+			/* padding: 1.5em 0 0 0; */
 			font-style: normal;
 		}
 
