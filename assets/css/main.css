@@ -168,14 +168,16 @@
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
 		font-weight: bold;
-		color: #50c972;
+		/* PURPLE CHANGE */
+	  color: #af5bb8;
 	}
 
 	h4 {
 		font-size: 1.2em;
 		line-height: 1.5em;
 		letter-spacing: 0;
-		color: #50c972;
+		/* PURPLE CHANGE */
+		color: #af5bb8;
 	}
 
 	h5 {
@@ -2941,7 +2943,8 @@
 	}
 
 	#header {
-		background: #14661b;
+		/* PURPLE CHANGE */
+		background: #622c68;
 		font-size: 1.35em;
 		color: #fff;
 		cursor: default;
@@ -3253,7 +3256,8 @@
 			#main > header h2 {
 				font-size: 2.75em;
 				margin: 0;
-				color: #50c972;
+				/* PURPLE CHANGE */
+				color: #af5bb8;
 				font-weight: bold;
 			}
 
@@ -3354,7 +3358,8 @@
 /* Footer */
 
 	#footer {
-		background: #14661b;
+		/* PURPLE CHANGE */
+		background: #622c68;
 		padding: 4em 0 6em 0;
 		text-align: center;
 		color: #fff;
