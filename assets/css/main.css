@@ -3174,8 +3174,9 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		/*background-image: url("images/overlay.png"), url("../../images/banner.jpg");*/
-		background-image: linear-gradient(to right bottom, #14661b, #176e1f, #197524, #1c7d28, #1e852d, #269037, #2e9b42, #35a64c, #43b85f, #50c972, #5ddc86, #6aee9a);
+		/* https://mycolor.space/gradient */
+		/* light: #af5bb8 dark: #622c68 */
+		background-image: linear-gradient(to right bottom, #622c68, #74377b, #88438f, #9b4fa3, #af5bb8);
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
