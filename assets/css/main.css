@@ -168,7 +168,7 @@
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
 		font-weight: bold;
-		/* PURPLE CHANGE */
+		/* COLOR CHANGE */
 	  color: #af5bb8;
 	}
 
@@ -176,7 +176,7 @@
 		font-size: 1.2em;
 		line-height: 1.5em;
 		letter-spacing: 0;
-		/* PURPLE CHANGE */
+		/* COLOR CHANGE */
 		color: #af5bb8;
 	}
 
@@ -2943,7 +2943,7 @@
 	}
 
 	#header {
-		/* PURPLE CHANGE */
+		/* COLOR CHANGE */
 		background: #622c68;
 		font-size: 1.35em;
 		color: #fff;
@@ -3177,7 +3177,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		/* PURPLE CHANGE */
+		/* COLOR CHANGE */
 		/* https://mycolor.space/gradient */
 		/* light: #af5bb8 dark: #622c68 */
 		background-image: linear-gradient(to right bottom, #622c68, #74377b, #88438f, #9b4fa3, #af5bb8);
@@ -3256,7 +3256,7 @@
 			#main > header h2 {
 				font-size: 2.75em;
 				margin: 0;
-				/* PURPLE CHANGE */
+				/* COLOR CHANGE */
 				color: #af5bb8;
 				font-weight: bold;
 			}
@@ -3358,7 +3358,7 @@
 /* Footer */
 
 	#footer {
-		/* PURPLE CHANGE */
+		/* COLOR CHANGE */
 		background: #622c68;
 		padding: 4em 0 6em 0;
 		text-align: center;
