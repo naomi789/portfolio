@@ -1,2 +1,2 @@
 # ux-website
-This template was originally the "Alpha" template available on HTML5UP, but I've been tweaking it ever since. 
+Check out my UX Research portfolio - it started from the "Alpha" template available on HTML5UP.net
