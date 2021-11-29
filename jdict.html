@@ -18,23 +18,25 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
-					<h1><a href="index.html">Naomi Johnson</a></h1>
-					<nav id="nav">
-						<ul>
-							<li>
-								<a href="#" class="icon solid fa-angle-down">Projects</a>
-								<ul>
-									<li><a href="mentor.html">Mentor - search & request</a></li>
-									<li><a href="jdict.html">Jdict - language tools</a></li>
-									<li><a href="poirot.html">Poirot - dev tools</a></li>
-									<li><a href="juxxt.html">Juxxt - design tools</a></li>
-									<li><a href="vat.html">VAT - annotation tools</a></li>
-								</ul>
-							</li>
-						</ul>
+			<!-- Header -->
+			<div class="row">
+				<div class="col-2"></div>
+				<div class="col-8">
+					<nav class="navbar navbar-expand-md navbar-light bg-faded">
+						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+							<div class="navbar-nav">
+								<a class="nav-item nav-link active" href="index.html">Projects<span class="sr-only">(current)</span></a>
+								<a class="nav-item nav-link" href="about.html">About</a>
+								<a class="nav-item nav-link" href="https://github.com/naomi789/naomi789/raw/master/resume.pdf">Resume <i class="fas fa-external-link-alt"></i></a>
+							</div>
+						</div>
 					</nav>
-				</header>
+				</div>
+				<div class="col-2"></div>
+			</div>
 
 			<!-- Main -->
 				<section id="main" class="container">
@@ -48,21 +50,21 @@
 						<!-- <span class="image featured"><img src="images/free_no_copyright/desk.jpeg" alt="" /></span> -->
 						<div class="row">
 							<div class="col-6 col-12-narrower">
-								<h3>Role</h3>
-								<p>Designer, UX Researcher, Project Manager</p>
-								<h3>Methods</h3>
-								<p>Protocol design, Competitor analysis, User roles, Storyboarding,
+								<h3 class="fact-title">Role</h3>
+								<p class="fact-fact">Designer, UX Researcher, Project Manager</p>
+								<h3 class="fact-title">Methods</h3>
+								<p class="fact-fact">Protocol design, Competitor analysis, User roles, Storyboarding,
 									Paper prototyping, Wireframes, Visual design, Prototyping,
 									Qualitative analysis</p>
-								<h3>Team</h3>
-								<p>Lavonte Brown, Naomi Johnson, Luke Wolpert, Zi Zeng</p>
+								<h3 class="fact-title">Team</h3>
+								<p class="fact-fact">Lavonte Brown, Naomi Johnson, Luke Wolpert, Zi Zeng</p>
 							</div>
 							<div class="col-6 col-12-narrower">
-								<h3>Timeline</h3>
-								<p>May-August 2019</p>
-								<h3>Tools</h3>
-								<p>Adobe XD, Balsamiq</p>
-								<h3>Media</h3>
+								<h3 class="fact-title">Timeline</h3>
+								<p class="fact-fact">May-August 2019</p>
+								<h3 class="fact-title">Tools</h3>
+								<p class="fact-fact">Adobe XD, Balsamiq</p>
+								<h3 class="fact-title">Media</h3>
 								<p></p>
 							</div>
 						</div>
@@ -86,11 +88,11 @@
 						<p>We anticipated most of our users would be high school or university students enrolled in language classes. Instead of creating user personas, we found ten different students who were either studying Japanese, or native Japanese speakers who were learning English, who could participate in interviews and studies. We also interviewed a Japanese language professor in order to gain insight on student language study.</p>
 						<!-- 1. Student looks at long vocab list; doesn't want to make paper flashcards (environmental concerns). 2. Uses digital ones online from two years ago, doesn't realize professor changed about 10% of the words for this unit. 3. Makes their own digital ones after struggling to find software that does "triangle" flashcards. 4. Doesn't actually want to study the vocab list bc they think they know most of the words 5. Over-achiver student looks up words they come across while reading a news article online, but forgets to add the word to their study list. -->
 						<p>We created a problem scenario storyboard, based on interviews from students, to show what a student's life is like without a dictionary/flashcard app.</p>
-				        <div class="carousel">
+				        <!-- <div class="carousel">
 				            <button id="left-btn"><i class="arrow"></i></button>
 				            <img id="carousel-img" src="" alt="">
 				            <button id="right-btn"><i class="arrow"></i></button>
-				        </div>
+				        </div> -->
 						<br><br>
 						<p>We created a list of requirements for our solution.</p>
 						<ol>
@@ -114,88 +116,41 @@
 
 						<!-- <p>In addition to writing the code and running the user studies, there are several other features in development.</p> -->
 						</div>
-						<div class="row">
+						<!-- <div class="row">
 							<div class="col-4">
-								<a class="image fit"><img src="images/jdict/dictionary.PNG" alt="dictionary"></a>
+								<a class="img-fluid"><img src="images/jdict/dictionary.PNG" alt="dictionary"></a>
 							</div>
 							<div class="col-4">
-								<a class="image fit"><img src="images/jdict/search_results.PNG" alt="search"></a>
+								<a class="img-fluid"><img src="images/jdict/search_results.PNG" alt="search"></a>
 							</div>
 							<div class="col-4">
-								<a class="image fit"><img src="images/jdict/lists.PNG" alt="lists"></a>
+								<a class="img-fluid"><img src="images/jdict/lists.PNG" alt="lists"></a>
 							</div>
 							<div class="col-4">
-								<a class="image fit"><img src="images/jdict/deck.PNG" alt="deck"></a>
+								<a class="img-fluid"><img src="images/jdict/deck.PNG" alt="deck"></a>
 							</div>
 							<div class="col-4">
-								<a class="image fit"><img src="images/jdict/front.PNG" alt="front"></a>
+								<a class="img-fluid"><img src="images/jdict/front.PNG" alt="front"></a>
 							</div>
 							<div class="col-4">
-								<a class="image fit"><img src="images/jdict/back.PNG" alt="back"></a>
+								<a class="img-fluid"><img src="images/jdict/back.PNG" alt="back"></a>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</section>
 
 			<!-- Footer -->
-			<section id="footer">
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/in/naomi789/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://www.github.com/naomi789" class="icon brands fa-github"><span class="label">Github</span></a></li>
-					<!-- <li><a href="https://www.instagram.com/naomi.johndaughter/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
-					<!-- <li><a href="https://www.naomijohndaughter.com" class="icon brands fa-camera"><span class="label">Photography</span></a></li> -->
-					<li><a href="#snjohnson789@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-				<p class="copyright">&copy; 2021 <a href="index.html">Naomi Johnson</a>.
-	  				Design: <a href="http://html5up.net">HTML5 UP</a> <a href="https://html5up.net/alpha">Alpha</a>.
-				</p>
-			</section>
-
+			<div class="row footer">
+				<div class="col-3"></div>
+				<div class="col-6">
+					<a href="https://www.linkedin.com/in/naomi789/" class="fab fa-linkedin icon"></a>
+					<a href="https://www.github.com/naomi789" class="fab fa-github icon"></a>
+					<a href="#snjohnson789@gmail.com" class="fas fa-envelope icon"></a>
+					<br><br>
+					<p class="copyright">&copy; 2021 <a href="index.html">Naomi Johnson</a></p>
+				</div>
+				<div class="col-3"></div>
+			</div>
 		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="js/code_js.js"></script>
-
-		    <script>
-		    const img = document.getElementById('carousel-img');
-			const rightBtn = document.getElementById('right-btn');
-			const leftBtn = document.getElementById('left-btn');
-
-			let pictures = ['images/jdict/1_2_3.jpg', 'images/jdict/4_5_6.jpg', 'images/jdict/7_8_9.jpg'];
-
-			img.src = pictures[0];
-			let position = 0;
-
-			moveRight = () => {
-			    if (position >= pictures.length - 1) {
-			        position = 0
-			        img.src = pictures[position];
-			        return;
-			    }
-			    img.src = pictures[position + 1];
-			    position++;
-			}
-
-			moveLeft = () => {
-			    if (position < 1) {
-			        position = pictures.length - 1;
-			        img.src = pictures[position];
-			        return;
-			    }
-			    img.src = pictures[position - 1];
-			    position--;
-			}
-
-			rightBtn.addEventListener("click", moveRight);
-			leftBtn.addEventListener("click", moveLeft);
-			</script>
-
 	</body>
 </html>
