@@ -1,5 +1,6 @@
 BEAUTIFUL SITES:
 1. https://www.timmypham.com/#portfolio
+2. https://ezou.myportfolio.com/work
 
 SITES:
 1. https://www.royfalinwang.com/
@@ -20,6 +21,16 @@ UX RESEARCH SITES:
 7. http://www.juleslee.com/
 8. http://jasonlipshin.net/wp-content/uploads/2017/08/UX_Research_Portfolio_Aug1_2017.compressed.pdf
 
+PROJECT IDEAS:
+-1SE (diary study - usability issues)
+-Bumble
+-Slack
+-Duolingo
+-Instagram (understanding how people think message requests work)
+-Lightroom
+-Meetup
+-Spotify
+-ThredUp
 
 RESUMES:
 https://drive.google.com/file/d/1Qmno0h2xwP5gd5GVv_KRg3VFgYe9l-4e/view
