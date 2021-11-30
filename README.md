@@ -1,13 +1,15 @@
-Hi there
+#Hi there
 
 👋 I'm a UX Researcher working at Groupon in Seattle, WA, USA.
 
-NOW
+#NOW
+
 ✨ Focused on the consumer side of e-commerce
 
 🌱 Part time student at the University of Washington
 
-BIO
+#BIO
+
 👩‍🦱 My pronouns are she/her
 
 💻 I'm an ex-software engineer who loves python scripts
