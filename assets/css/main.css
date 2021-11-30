@@ -131,10 +131,13 @@
   font-size: 16px;
 }
 
-.proj-img {
+.proj-img-container {
   text-align: center;
 }
 
+.proj-img {
+  /* background: linear-gradient(black, #DAE0E6); */
+}
 /* FOOTER */
 .footer {
   font-size: 14px;
