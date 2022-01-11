@@ -21,6 +21,9 @@ UX RESEARCH SITES:
 7. http://www.juleslee.com/
 8. http://jasonlipshin.net/wp-content/uploads/2017/08/UX_Research_Portfolio_Aug1_2017.compressed.pdf
 
+HOW TO:
+1. https://spin.atomicobject.com/2015/07/14/css-responsive-square/
+
 PROJECT IDEAS:
 -1SE (diary study - usability issues)
 -Bumble
