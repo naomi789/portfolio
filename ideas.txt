@@ -10,6 +10,7 @@ SITES:
 4. https://wyemchin.webflow.io/
 5. https://www.anastasiaux.com/ (note the "User Research, Usability Testing, Wireframing, Prototyping, Responsive Web Design, Visual Design, Interaction Design" section)
 6. https://www.karlaleung.com/ (note the simplicity and how she showcases each project)
+7. https://www.aleaabrams.com/gigjam (note the set of screenshots)
 
 UX RESEARCH SITES:
 1. http://www.hollyhethie.com/ux-research.html
