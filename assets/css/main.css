@@ -26,7 +26,7 @@
   color: #0d0d0d;
   /* font-style: italic; */
   font-weight: 700;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
@@ -94,6 +94,15 @@
 
 .banner-img-container {
   text-align: center;
+}
+
+.banner-full-img-container {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.banner-full-img {
+  width: 100%;
 }
 
 .banner-img {
