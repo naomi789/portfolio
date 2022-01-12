@@ -12,7 +12,7 @@
 .fact-fact {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: Roboto, sans-serif;
+  /* font-family: Roboto, sans-serif; */
   line-height: 32px;
   font-weight: 300;
   text-align: left;
@@ -24,7 +24,7 @@
   background-color: transparent;
   font-family: Roboto, sans-serif;
   color: #0d0d0d;
-  font-style: italic;
+  /* font-style: italic; */
   font-weight: 700;
   margin-top: 100px;
   margin-bottom: 20px;
@@ -40,13 +40,17 @@
 }
 
 .proj-section-header {
-  margin-top: 20px;
+  margin-top: 60px;
   margin-bottom: 20px;
   font-family: Roboto, sans-serif;
   color: #0d0d0d;
   font-size: 32px;
   line-height: 32px;
   font-weight: 500;
+}
+
+.proj-sub-section-header {
+  font-size: 24px;
 }
 
 .proj-section-content {
@@ -104,7 +108,7 @@
 
 .job-title, .fact-title {
   padding-top: 10px;
-  font-family: Roboto, sans-serif;
+  /* font-family: Roboto, sans-serif; */
   color: #747474;
   font-size: 16px;
   line-height: 28px;
@@ -135,9 +139,24 @@
   text-align: center;
 }
 
-.proj-img {
-  /* background: linear-gradient(black, #DAE0E6); */
+.proj-img-content {
+  position: absolute;
+  width: auto;
+  height: 100%;
 }
+
+.proj-image-square {
+  position: relative;
+  width: 99%;
+  background: linear-gradient(black, #DAE0E6);
+}
+
+.proj-image-square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
 /* FOOTER */
 .footer {
   font-size: 14px;
