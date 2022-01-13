@@ -78,28 +78,40 @@
 								dictionary, you probably intend to learn the words you're looking up.</p>
 						</div>
 
-						<div class="proj-section-header">Background Research</div>
+						<div class="proj-section-header">Competitor Research</div>
 						<div class="proj-section-content">
-							<p>I began by searching online for “best Japanese dictionary app” and “best Japanese flashcard websites”. After reading several posts, I took notes of names that came up more than once and began surveying existing dictionary websites
-								(nihongodict.com and jisho.org) and flashcard websites (quizlet.com). I then looked at Android and iOS apps (A Word, Aedict, Akebi, Anki, Brainscape, Busuu, Cram, English Japanese Dictionary, Flashcards, Flashcards Plus by Chegg, GRE
-								Vocabulary by Magoosh, Imiwa?, Lexilize, Jsho, Japanese by Renzo Inc, Rolandos, StudyBlue, StudyStack, EOW, Takoboto, Tinycards, Vocabulary.com, and Waygo), and Microsoft Phone apps (Tango Master).</p>
-							<p>For most of these apps, we explored how their search page was before and after a query, whether and how they allowed users to store words, and whether there was any kind of flashcard app. Tango Master and Akebi were the only apps
-								that allowed us to query a dictionary and then add that word to a deck of flashcards. Tango Master’s greatest failure is the fact that the app is only available in the Microsoft store. While Akebi does have the ability to create
-								flashcards, the interface does not allow users to automatically add results from a query to a deck of flashcards, and the search results page was a dated design.</p>
-							<!-- <p>The competitor analysis let us see what features are common in online Japanese/English dictionaries, as well as look for differentiating factors where one app was doing particularly well, or particularly poorly. We decided to combine a flashcard app with dictionary functionality.</p> -->
-							<div class="proj-section-header">Ideation & Iteration</div>
+							<p>
+								I tried using over 25 websites and apps that were dictionaries
+								or flashcard tools, and charted which features they had.
+								Most were incredibly similar, but we did find that two dictionary
+								apps allowed users to make a query and immediately add that word
+								to a flashcard deck (Tango Master and Akebi), but the first
+								was only available on the Microsoft phone and the second is
+								did not allow users to automatically add results from a query
+								to a deck of flashcards.
+							</p>
+							<div class="proj-section-header">Research & Design</div>
 							<div class="proj-section-content">
-								<p>We anticipated most of our users would be high school or university students enrolled in language classes. Instead of creating user personas, we found ten different students who were either studying Japanese, or native Japanese
-									speakers who were learning English, who could participate in interviews and studies. We also interviewed a Japanese language professor in order to gain insight on student language study.</p>
-								<!-- 1. Student looks at long vocab list; doesn't want to make paper flashcards (environmental concerns). 2. Uses digital ones online from two years ago, doesn't realize professor changed about 10% of the words for this unit. 3. Makes their own digital ones after struggling to find software that does "triangle" flashcards. 4. Doesn't actually want to study the vocab list bc they think they know most of the words 5. Over-achiver student looks up words they come across while reading a news article online, but forgets to add the word to their study list. -->
-								<p>We created a problem scenario storyboard, based on interviews from students, to show what a student's life is like without a dictionary/flashcard app.</p>
-								<!-- <div class="carousel">
-				            <button id="left-btn"><i class="arrow"></i></button>
-				            <img id="carousel-img" src="" alt="">
-				            <button id="right-btn"><i class="arrow"></i></button>
-				        </div> -->
-								<br><br>
-								<p>We created a list of requirements for our solution.</p>
+								<p>
+									Our target audience was high school or university students
+									enrolled in Japanese language classes.
+									I conducted five remote ethnographic interviews to understand how
+									students complete their homework and record new words they come
+									across outside of the classroom. Based on the interviews,
+									I created storyboards that show some of students' main
+									issues when studying Japanese, and a list of requirements
+									for our solution.</p>
+							</div>
+							<div class="proj-sub-section-header">Storyboards</div>
+
+							<img class="img-fluid" src="images/jdict/1_2_3.jpg" />
+							<br><br>
+							<img class="img-fluid" src="images/jdict/4_5_6.jpg" />
+							<br><br>
+							<img class="img-fluid" src="images/jdict/7_8_9.jpg" />
+							<br><br>
+							<div class="proj-sub-section-header">Requirements</div>
+							<div class="proj-section-content">
 								<ol>
 									<li>Search functionality works with English or Japanese writing systems (Kanji, Hiragana, Katakana, or Romaji).</li>
 									<li>Recent queries should be shown as history, but users should be able to delete words.</li>
@@ -114,34 +126,69 @@
 										data,
 										the app should determine which words need to be studied and when.</li>
 								</ol>
-
-								<p>We created paper prototypes and ran five 15 minute usability studies where we asked users to look up a word and add it to a flashcard deck. After a few design tweaks, we created clickable wireframes using Balsamiq. After running
-									the
-									same study again, we upgraded to a functional <a href="https://xd.adobe.com/view/2160138f-f0bb-43da-582e-bb91bdd270b8-5751/">prototype </a> made in AdobeXd.</p>
-								<!-- <p> I created user personas, designed user scenarios, created wireframes, and made a functional prototype with AdobeXd. As features became functional on our live site, I designed qualitative user studies, ran them, and analyzed data. Even as we finished the final product, we were gathering data and creating action items that could improve the quality and usability of our site.</p> -->
 							</div>
-							<div class="proj-section-header">Final Solution</div>
+							<div class="proj-sub-section-header">Prototyping</div>
 							<div class="proj-section-content">
-								<p>I wrote Python scripts that converted the JSON files into MySQL statements, used JavaScript to access the database, and displayed the results in HTML. Our fully functional relational database with nine tables that had a combined
-									total of 1.25 million entries, eleven thousand kanji, and tens of thousands of words, some of which had over ten different definitions. My teammates and I got a minimum viable product functioning (signup/login and logout, the
-									search/results page, displays for the flashcard decks and flashcards). From there, we started working on the CSS. Our code is available on <a href="https://github.com/naomi789/2019_4640">GitHub</a>. I earned an "A" on this project
-									and
-									in this course, as did my three collaborators.</p>
-								<p>We were able to complete the first seven of eight requirements. We were not able to complete the eighth requirement on time (a page that shows how often a user has been quized on each word, how often they get the answer correct,
-									and
-									how long it took them to get the right answer), but we were able to create backend features to track whether users got flashcards right and how long they spent thinking about it. We have not yet created an algorithm to determine how
-									often users should be quizzed on their vocabulary words, how much they should be rewarded for immediately getting an answer correct, or how many times they need to get it right before we can take the word off the rotation for a
-									while.
-									We hope to create a front end that will display some of this data, as well as statistics about how many words a user is studying per day.</p>
-								<h3>Outcome& Impact</h3>
-								<p>We identified key reasons why students failed to learn new vocabulary, then created our website in order to streamline the process by combining dictionary and flashcard functionality and by making vocab lists public so students can
-									share them. </p>
-
-								<!-- <p>In addition to writing the code and running the user studies, there are several other features in development.</p> -->
+								<p>I created paper prototypes and ran five 15 minute usability
+									studies where we asked users to look up a word and add it to a
+									flashcard deck. After a few design tweaks, I created clickable
+									wireframes using Balsamiq, and. After running
+									the same study again, we upgraded to a functional
+									<a href="https://xd.adobe.com/view/2160138f-f0bb-43da-582e-bb91bdd270b8-5751/">prototype</a>
+									made in AdobeXd.
+								</p>
 							</div>
-							<div class="col-2"></div>
+							<!-- <p> I created user personas, designed user scenarios, created wireframes, and made a functional prototype with AdobeXd. As features became functional on our live site, I designed qualitative user studies, ran them, and analyzed data. Even as we finished the final product, we were gathering data and creating action items that could improve the quality and usability of our site.</p> -->
+
+							<div class="proj-section-header">Development</div>
+							<div class="proj-section-content">
+								<p>My three teammates coded our website and hosted it on AWS
+									(see our code on <a href="https://github.com/naomi789/2019_4640">GitHub</a>).
+									Although our professor encouraged us to just use a fake database
+									with just a few words, I found a set of JSON files that contained over
+									eleven thousand kanji and tens of thousands of words, and I wrote
+									a Python script that created all of our SQL statements to make
+									a fully functional relational database with nine tables and a combined
+									total of 1.25 million entries.
+								</p>
+								<p>
+									We completed the first seven of our eight requirements -
+									for the eigth requirement, we completed the backend but ran out
+									of time to complete the front end. This was important, because
+									in the real world, we would be successfully saving the data,
+									and would be able to dislay it when development was completed.
+									Our stretch goal was to create a algorithm to determine how
+									often users should be quizzed on their vocabulary words,
+									how much they should be rewarded for immediately getting an
+									answer correct, or how many times they need to get it right
+									before we can take the word off the rotation.
+								</p>
+							</div>
+							<div class="proj-section-header">Limitations</div>
+							<div class="proj-section-content">
+								<p>
+									<b>Iterate on design prototypes:</b>
+									Instead of showing participants one set of prototypes
+									during initial interviews, I would have preferred to show two
+									different versions, because people can give better feedback when they
+									understand what the other options are. However, due to time
+									constraints, I didn't have time to design a second set of prototypes,
+									so I used competitor research to inspire my designs.
+								</p>
+								<p><b>Have designers do the designing:</b>
+									This is the first and only mobile website I have ever designed,
+									and I think that's apparent as you look at my designs!
+									I'm sure that a different color palette and fonts
+									would have improved out mobile website. At the time,
+									I had never used an iPhone, and the rest of my teammates were all
+									Android users as well, so I didn't catch it when the final prototypes
+									all had Android back buttons on the bottom of each screen.
+								</p>
+							</div>
 						</div>
+						<div class="col-2"></div>
 					</div>
+				</div>
 		</section>
 
 		<!-- Footer -->
