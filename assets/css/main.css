@@ -86,7 +86,7 @@
 
 .banner-subtitle {
   font-family: Roboto, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   font-weight: 300;
   margin-top: 5px;
@@ -136,7 +136,7 @@
   font-weight: 600;
 }
 
-.project-description {
+.project-description, .banner-text, {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 300;
