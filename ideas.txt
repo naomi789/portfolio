@@ -1,3 +1,13 @@
+TODOs for my portfolio:
+-add more images (low fi prototypes, stuff from freepik, etc)
+-include screens and introduce them
+-move resume and about button to the right side of the screen
+-maybe bold/italics/or highlight the key stuff
+
+RESUME FORMATTING:
+-try a new font, I liked "Inter" (https://www.anshika.info/_files/ugd/ffed76_f98f5916bb9e4a1fbeb218012dcf7a94.pdf)
+
+
 BEAUTIFUL SITES:
 1. https://www.timmypham.com/#portfolio
 2. https://ezou.myportfolio.com/work
@@ -11,6 +21,7 @@ SITES:
 5. https://www.anastasiaux.com/ (note the "User Research, Usability Testing, Wireframing, Prototyping, Responsive Web Design, Visual Design, Interaction Design" section)
 6. https://www.karlaleung.com/ (note the simplicity and how she showcases each project)
 7. https://www.aleaabrams.com/gigjam (note the set of screenshots)
+8. https://anshika.info/social-media-rumor (lots of visuals on the project reports)
 
 UX RESEARCH SITES:
 1. http://www.hollyhethie.com/ux-research.html
