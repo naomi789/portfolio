@@ -68,6 +68,11 @@
 }
 
 /* HEADING & BANNER */
+.landing-header {
+  background-color: #8ED1FC;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 .banner {
   text-align: center;
   margin-top: 100px;
