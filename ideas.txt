@@ -13,25 +13,17 @@ BEAUTIFUL SITES:
 2. https://ezou.myportfolio.com/work
 
 SITES:
-1. https://www.royfalinwang.com/
-2. https://www.amyrogers.design/
-(Amy's my favorite! note the "external link" logo in her nav bar)
+1. https://www.aleaabrams.com/gigjam (note the set of screenshots)
+2. https://www.amyrogers.design/ (I like the "external link" logo in her nav bar)
 3. https://codycai.com/
 4. https://wyemchin.webflow.io/
 5. https://www.anastasiaux.com/ (note the "User Research, Usability Testing, Wireframing, Prototyping, Responsive Web Design, Visual Design, Interaction Design" section)
 6. https://www.karlaleung.com/ (note the simplicity and how she showcases each project)
-7. https://www.aleaabrams.com/gigjam (note the set of screenshots)
-8. https://anshika.info/social-media-rumor (lots of visuals on the project reports)
 
 UX RESEARCH SITES:
-1. http://www.hollyhethie.com/ux-research.html
-2. http://irinasmoke.com/
-3. http://blog.jpcarrascal.com/cv/
-4. https://www.katiemccurdy.com/work/
-5. https://carljpearson.com/
-6. http://emilyralter.com/
-7. http://www.juleslee.com/
-8. http://jasonlipshin.net/wp-content/uploads/2017/08/UX_Research_Portfolio_Aug1_2017.compressed.pdf
+1. https://www.katiemccurdy.com/work/
+2. http://www.juleslee.com/
+3. http://jasonlipshin.net/wp-content/uploads/2017/08/UX_Research_Portfolio_Aug1_2017.compressed.pdf
 
 HOW TO:
 1. https://spin.atomicobject.com/2015/07/14/css-responsive-square/
