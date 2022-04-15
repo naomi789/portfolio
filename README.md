@@ -1,7 +1,3 @@
-## Hi there
-
-👋 I'm a UX Researcher working at GitHub in Seattle, WA, USA.
-
 ## NOW
 
 ✨ Focused on security features (e.g., depend-a-bot)
