@@ -1,6 +1,6 @@
 ## NOW
 
-✨ Focused on security features (e.g., depend-a-bot)
+✨ UX Researcher over GitHub's security products
 
 🌱 Part time student at the University of Washington
 
@@ -9,7 +9,3 @@
 👩‍🦱 My pronouns are she/her
 
 💻 I'm an ex-software engineer who loves python scripts
-
-📬 Message me on LinkedIn or send me an email
-
-📷 Fun fact: I've worked part time as a wedding photographer
