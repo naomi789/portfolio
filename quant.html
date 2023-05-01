@@ -55,8 +55,8 @@
   <h2>Research questions and hypothesis</h2>
   <p>Folks in Seattle tell newcomers  the same information that they were told when they moved to Seattle. But do the numbers back the claims that are shared so often? 
 </p>
-  <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#demo" aria-expanded="false">Expand/collapse</button>
-  <div id="demo" class="collapse" aria-expanded="false">
+  <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#hypothesis" aria-expanded="false">Expand/collapse</button>
+  <div id="hypothesis" class="collapse" aria-expanded="false" style="height: 0px;">
               <table class="table">
                 <thead>
                   <tr>
@@ -95,8 +95,8 @@
   <h2>Gather and clean data</h2>
   <p>I downloaded a *.csv of the <a href="https://data.seattle.gov/Public-Safety/SPD-Crime-Data-2008-Present/tazs-3rd5">SPD Crime Data: 2008-Present</a> data the last week of April 2023. 
 </p>
-  <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#demo" aria-expanded="false">Expand/collapse</button>
-  <div id="demo" class="collapse" aria-expanded="false">
+  <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#cleaning" aria-expanded="false">Expand/collapse</button>
+  <div id="cleaning" class="collapse" aria-expanded="false" style="height: 0px;">
 Overall, I was very impressed with how clean the data was. Some events were reported with the latitude and longitude (0,0), so I removed those, as well as a few outliers that were not in the county, let alone Seattle City limits. Next, I had to convert the dates from strings to datetime format, but I needed to drop the nan values first. 
   </div>
 <h2>Visualize the data</h2>
