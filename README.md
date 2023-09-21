@@ -1,11 +1,5 @@
-✨ Mid level UX Researcher searching for a new mixed methods/qualitative role
-
-🤓 Experienced with software tooling, ecommerce, educational tech, and more
-
-💻 I'm an ex-software engineer who loves Python scripts & automating quantitative work
-
-⏮️ Previously at: GitHub, Groupon, Microsoft, Adobe, and Stanford University
+🕵️‍♀️ Mid level UX Researcher at GreatSchools.org and ex-software engineer
 
 🌱 Part time student at the University of Washington
 
-📙 Native English speaker, working proficient Japanese, beginning German
+🌏 Native English, working proficient Japanese (JLPT N2-N1), beginning German (A1-A2)
