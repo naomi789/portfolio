@@ -1,8 +1,15 @@
-/*
-	Alpha by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+const field_of_work = "uSerrEsearch"; // pushed because I host my site via GitHub
+function checkPassword(field_id) {
+	console.log(field_id);
+	const attempt = document.getElementById(field_id).value;
+	console.log(attempt);
+	if (attempt === field_of_work) {
+	  window.location.href = field_id + '.html';
+	} else {
+	  alert("Sorry, access declined!");
+	}
+	document.getElementById(field_id).value = "";
+}
 
 (function($) {
 
