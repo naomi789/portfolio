@@ -1,0 +1,37 @@
+{% extends "base.html" %} {% block content %}
+
+
+<div class="row">
+    <section class="banner col-12">
+        <h2 class="banner-title">About me</h2>
+    </section>
+
+    <!-- Main -->
+    <div class="col-sm-12 col-md-3"></div>
+    <div class="col-sm-12 col-md-6">
+        <div class="row bio-photos">
+            <img src="{{ url_for('static', filename='images/me/3-naomis.png') }}" class="img-fluid proj-img">
+        </div>
+        <div class="row bio-text">
+            <br><br>
+            <p><b>Introduction: </b>
+                Naomi Johnson graduated with a bachelor's in Computer Science
+                and worked in software engineering before pivoting into UX Research
+                and graduating with a master's in Human Centered Design Engineering
+                from the University of Washington. She has worked as a UXR in various industries
+                (ecommerce, cyber security, education technology)
+                and spends her free time volunteering as a UXR mentor on ADPList,
+                piecing quilts, and photographing portraits.
+            </p>
+            <p><b>UXR Philosophy: </b>
+                Many focus on data and insights in UX research, but I believe true value
+                comes from driving impact. To maximize this, I champion research
+                democratization and foster collaboration—ensuring stakeholders
+                are engaged at every stage and empowered to act on findings.
+            </p>
+            <br><br>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-3"></div>
+</div>
+{% endblock %}

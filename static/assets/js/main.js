@@ -4,7 +4,7 @@ function checkPassword(field_id) {
 	const attempt = document.getElementById(field_id).value;
 	console.log(attempt);
 	if (attempt === field_of_work) {
-	  window.location.href = field_id + '.html';
+	  window.location.href = field_id;
 	} else {
 	  alert("Sorry, access declined!");
 	}

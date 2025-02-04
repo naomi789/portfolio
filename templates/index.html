@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- Banner -->
+<div class="row landing-header">
+    <div class="col-sm-0 col-md-2"></div>
+    <div class="col-sm-12 col-md-8">
+        <h2 class="banner-title">Hi, I'm Naomi</h2>
+        <div class="banner-text">
+            <p>I’m a mixed-methods UX Researcher currently working at GreatSchools. My
+                <a href="https://naomi789.github.io/naomi789/about.html">about page</a> has more details :)</p>
+        </div>
+        <div class="col-sm-0 col-md-2"></div>
+    </div>
+</div>
+
+<!-- TAXONOMY -->
+<div class="row project align-items-center">
+    <div class="col-sm-0 col-md-2"></div>
+    <div class="col-sm-12 col-md-3 proj-img-container">
+        <img src="{{ url_for('static', filename='images/greatschools/taxonomy-square.png') }}"
+             alt="laptop at a website with a K-12 school profile, floating in light blue background."
+             class="img-fluid proj-img">
+    </div>
+    <div class="col-sm-12 col-md-5">
+        <h6 class="job-title">Early 2025</h6>
+        <h3 class="project-name">Simplifying School Profile Navigation</h3>
+        <p class="project-description">
+            Conducted unmoderated interviews with open-ended and hybrid card sorts to understand how users
+            naturally categorize school information, followed by a tree test to validate findings and refine
+            the final taxonomy of the redesigned school profile page on GreatSchools.org.
+        </p>
+        </br></br>
+        <input type="password" id="taxonomy">
+        <button onclick="checkPassword('taxonomy')">Enter password</button>
+    </div>
+    <div class="col-sm-0 col-md-2"></div>
+</div>
+
+<!-- RATINGS -->
+<div class="row project align-items-center">
+    <div class="col-sm-0 col-md-2"></div>
+    <div class="col-sm-12 col-md-3 proj-img-container">
+        <!--        <img src="../images/greatschools/ratings-square.png"-->
+        <img src="{{ url_for('static', filename='images/greatschools/ratings-square.png') }}"
+             alt="laptop at a website with school ratings, floating in light blue background."
+             class="img-fluid proj-img">
+    </div>
+    <div class="col-sm-12 col-md-5">
+        <h6 class="job-title">Late 2024</h6>
+        <h3 class="project-name">Clarifying School Ratings</h3>
+        <p class="project-description">
+            Moderated user interviews to understand how parents look up their children's K-12 school
+            and how they discover potential schools, followed by progressive discolsure exercise to
+            understand when what info is needed, followed by usability testing of the re-designed hero and
+            school rating section.
+        </p>
+        </br></br>
+        <input type="password" id="ratings">
+        <button onclick="checkPassword('ratings')">Enter password</button>
+    </div>
+    <div class="col-sm-0 col-md-2"></div>
+</div>
+
+
+{% endblock %}

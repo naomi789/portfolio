@@ -1,3 +1,6 @@
+# Virtual Env stuff
+/venv/*
+
 # General
 .DS_Store
 .AppleDouble
