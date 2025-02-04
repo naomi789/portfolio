@@ -61,20 +61,21 @@
 						the final taxonomy of the redesigned school profile page on GreatSchools.org.
 					</p>
 					</br></br>
-					<a class="read-more" href="taxonomy.html">Enter password →</a>
+					<input type="password" id="password">
+					<button onclick="checkPassword('taxonomy.html')">Enter password</button>
 				</div>
 				<div class="col-sm-0 col-md-2"></div>
 			</div>
 
-			<!-- BUMBLE -->
+			<!-- RATINGS -->
 			<div class="row project align-items-center">
 				<div class="col-sm-0 col-md-2"></div>
 				<div class="col-sm-12 col-md-3 proj-img-container">
-					<a href="bumble.html"><img src="images/greatschools/ratings-square.png" class="img-fluid proj-img"></a>
+					<img src="images/greatschools/ratings-square.png" class="img-fluid proj-img">
 				</div>
 				<div class="col-sm-12 col-md-5">
 					<h6 class="job-title">Late 2024</h6>
-					<a class="project-name" href="ratings.html">Clarifying School Ratings</a>
+					<h3 class="project-name">Clarifying School Ratings</h3>
 					<p class="project-description">
 						Moderated user interviews to understand how parents look up their children's K-12 school
 						and how they discover potential schools, followed by progressive discolsure exercise to
@@ -82,7 +83,8 @@
 						school rating section.
 					</p>
 					</br></br>
-					<a class="read-more" href="ratings.html">Enter password →</a>
+					<input type="password" id="password">
+					<button onclick="checkPassword('ratings.html')">Enter password</button>
 				</div>
 				<div class="col-sm-0 col-md-2"></div>
 			</div>
@@ -114,6 +116,17 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script>
+	  function checkPassword(protected_file) {
+		const correctPassword = "secret123";
+		const userPassword = document.getElementById("password").value;
+		if (userPassword === correctPassword) {
+		  window.location.href = protected_file;
+		} else {
+		  alert("Wrong password!");
+		}
+	  }
+	</script>
 
 </body>
 
