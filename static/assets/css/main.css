@@ -4,189 +4,198 @@
 
 /* PROJ PAGE */
 .background-banner {
-  background-image: linear-gradient(to right bottom, #92C0E4, #40A8C7, #0283A4, #027FA6);
-  width: 100%;
-  height: 400px;
+    background-image: linear-gradient(to right bottom, #92C0E4, #40A8C7, #0283A4, #027FA6);
+    width: 100%;
+    height: 400px;
 }
 
 .fact-fact {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  /* font-family: Roboto, sans-serif; */
-  line-height: 32px;
-  font-weight: 300;
-  text-align: left;
-  text-transform: none;
-  color: #1a1b1f;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* font-family: Roboto, sans-serif; */
+    line-height: 32px;
+    font-weight: 300;
+    text-align: left;
+    text-transform: none;
+    color: #1a1b1f;
 }
 
 .proj-title {
-  background-color: transparent;
-  font-family: Roboto, sans-serif;
-  color: #0d0d0d;
-  /* font-style: italic; */
-  font-weight: 700;
-  margin-top: 50px;
-  margin-bottom: 20px;
+    background-color: transparent;
+    font-family: Roboto, sans-serif;
+    color: #0d0d0d;
+    /* font-style: italic; */
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .proj-subtitle {
-  width: auto;
-  margin-bottom: 50px;
-  font-family: 'Abcdiatypesemi mono trial', sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 300;
+    width: auto;
+    margin-bottom: 50px;
+    font-family: 'Abcdiatypesemi mono trial', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
 }
 
 .proj-section-header {
-  margin-top: 60px;
-  margin-bottom: 20px;
-  font-family: Roboto, sans-serif;
-  color: #0d0d0d;
-  font-size: 32px;
-  line-height: 32px;
-  font-weight: 500;
-  text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-family: Roboto, sans-serif;
+    color: #0d0d0d;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .proj-sub-section-header {
-  font-size: 24px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.proj-section-subheader {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 2px;
 }
 
 .proj-section-content {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  line-height: 32px;
-  font-weight: 300;
-  text-align: left;
-  text-transform: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300;
+    text-align: left;
+    text-transform: none;
 }
 
 /* HEADING & BANNER */
 .landing-header {
-  /* background-color: #8ED1FC; */
-  padding-top: 20px;
-  padding-bottom: 40px;
+    /* background-color: #8ED1FC; */
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
+
 .banner {
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .banner-title {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  font-family: Roboto, sans-serif;
-  color: #0d0d0d;
-  font-size: 64px;
-  line-height: 64px;
-  font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: Roboto, sans-serif;
+    color: #0d0d0d;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 700;
 }
 
 .banner-subtitle {
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: 300;
-  margin-top: 5px;
-  margin-bottom: 5px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .banner-img-container {
-  text-align: center;
+    text-align: center;
 }
 
 .banner-full-img-container {
-  width: 100%;
-  margin-top: 10px;
+    width: 100%;
+    margin-top: 10px;
 }
 
 .banner-full-img {
-  width: 100%;
+    width: 100%;
 }
 
 .banner-img {
-  height: 350px;
-  margin-top: 50px;
+    height: 350px;
+    margin-top: 50px;
 }
 
 /* PROJECTS */
 .project {
-  padding-top: 20px;
-  padding-bottom: 50px;
-  padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 10px;
 }
 
 .job-title, .fact-title {
-  padding-top: 10px;
-  /* font-family: Roboto, sans-serif; */
-  color: #747474;
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 300;
-  letter-spacing: 4px;
-  text-transform: uppercase;
+    padding-top: 10px;
+    /* font-family: Roboto, sans-serif; */
+    color: #747474;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
 
 .project-name {
-  font-family: Roboto, sans-serif;
-  color: #0d0d0d;
-  font-size: 32px;
-  font-weight: 600;
+    font-family: Roboto, sans-serif;
+    color: #0d0d0d;
+    font-size: 32px;
+    font-weight: 600;
 }
 
 .project-description, .banner-text, {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .read-more {
-  padding-left: 0px;
+    padding-left: 0px;
 }
 
 .proj-img-container {
-  text-align: center;
+    text-align: center;
 }
 
 .proj-img-content {
-  position: absolute;
-  width: auto;
-  height: 100%;
+    position: absolute;
+    width: auto;
+    height: 100%;
 }
 
 .proj-image-square {
-  position: relative;
-  width: 99%;
-  background: linear-gradient(black, #DAE0E6);
+    position: relative;
+    width: 99%;
+    background: linear-gradient(black, #DAE0E6);
 }
 
 .proj-image-square:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
+    content: "";
+    display: block;
+    padding-bottom: 100%;
 }
+
 /* HOME PAGE */
 body {
-  font-size: 16px !important;
+    font-size: 16px !important;
 }
 
 /* FOOTER */
 .footer {
-  font-size: 14px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  text-align: center;
+    font-size: 14px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 .icon {
-  font-size: 45px;
-  margin-left: 5px;
-  margin-right: 5px;
+    font-size: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
