@@ -27,6 +27,10 @@ def ratings():
 def resources():
     return render_template('resources.html')
 
+@app.route('/draft')
+def draft():
+    return render_template('draft.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
