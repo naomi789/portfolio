@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, send_file
 
 app = Flask(__name__)
 
@@ -30,7 +30,11 @@ def resources():
 @app.route('/draft')
 def draft():
     return render_template('draft.html')
+ß
 
+@app.route('/saving')
+def view_pdf():
+    return send_file('static/files/saving.pdf', as_attachment=False)
 
 if __name__ == '__main__':
     app.run(debug=True)
