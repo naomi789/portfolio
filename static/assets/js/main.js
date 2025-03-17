@@ -1,8 +1,7 @@
 const field_of_work = "uSerrEsearch"; // pushed because I host my site via GitHub
 function checkPassword(field_id) {
-	console.log(field_id);
+	// console.log("test statement goes here");
 	const attempt = document.getElementById(field_id).value;
-	console.log(attempt);
 	if (attempt === field_of_work) {
 	  window.location.href = field_id;
 	} else {
