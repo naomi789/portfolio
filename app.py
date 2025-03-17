@@ -30,7 +30,6 @@ def resources():
 @app.route('/draft')
 def draft():
     return render_template('draft.html')
-ß
 
 @app.route('/saving')
 def view_pdf():
