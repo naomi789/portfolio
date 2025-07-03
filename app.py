@@ -18,6 +18,10 @@ def resume():
 def ratings():
     return send_file('static/files/web-school-ratings.pdf', as_attachment=False)
 
+@app.route('/chatbot.html')
+def chatbot():
+    return send_file('static/files/web-chatbot.pdf', as_attachment=False)
+
 @app.route('/resources')
 def resources():
     return render_template('resources.html')
