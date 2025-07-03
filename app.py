@@ -2,16 +2,17 @@ from flask import Flask, render_template, send_file
 
 app = Flask(__name__)
 
-
 @app.route('/')
 def index():
     return render_template('index.html')
-
 
 @app.route('/about')
 def about():
     return render_template('about.html')
 
+@app.route('/resume')
+def resume():
+    return send_file('static/files/Naomi-Johnson-Resume.pdf', as_attachment=False)
 
 @app.route('/ratings.html')
 def ratings():
