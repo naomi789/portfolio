@@ -13,15 +13,9 @@ def about():
     return render_template('about.html')
 
 
-@app.route('/taxonomy')
-def taxonomy():
-    return render_template('taxonomy.html')
-
-
-@app.route('/ratings')
+@app.route('/ratings.html')
 def ratings():
-    return render_template('ratings.html')
-
+    return send_file('static/files/web-school-ratings.pdf', as_attachment=False)
 
 @app.route('/resources')
 def resources():
@@ -30,6 +24,10 @@ def resources():
 @app.route('/draft')
 def draft():
     return render_template('draft.html')
+
+@app.route('/prevent-leaks.html')
+def prevent_leaks():
+    return send_file('static/files/web-prevent-leaks.pdf', as_attachment=False)
 
 @app.route('/saving')
 def view_pdf():
