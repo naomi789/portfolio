@@ -17,6 +17,31 @@ p {
 
 .navbar {
     font-family: Montserrat, sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+.navbar-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /*object-fit: cover; */
+}
+
+.nav-link {
+    transition:
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #0d6efd; /* Bootstrap primary */
+    transform: translateY(-2px);
+}
+
+.navbar-brand {
+    font-family: "Lora", serif;
 }
 
 a {

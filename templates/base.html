@@ -27,7 +27,13 @@
                 <!-- NAVIGATION -->
                 <nav class="navbar navbar-expand-md navbar-light">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="{{ url_for('index') }}">🏠 Naomi Johnson</a>
+                        <a class="navbar-brand d-flex align-items-center" href="{{ url_for('index') }}">
+                            <img
+                                src="{{ url_for('static', filename='images/me/square.jpeg') }}"
+                                alt="Naomi Johnson"
+                                class="navbar-img mx-2" />
+                            Naomi Johnson
+                        </a>
 
                         <button
                             class="navbar-toggler"
@@ -41,9 +47,10 @@
                         </button>
 
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-link" href="{{ url_for('about') }}">👋 About</a>
-                                <a class="nav-link" href="{{ url_for('resume') }}">Resume</a>
+                            <div class="navbar-nav ms-auto">
+                                <a class="nav-link mx-2" href="{{ url_for('index') }}">Home</a>
+                                <a class="nav-link mx-2" href="{{ url_for('about') }}">About</a>
+                                <a class="nav-link mx-2" href="{{ url_for('resume') }}">Resume</a>
                             </div>
                         </div>
                     </div>
