@@ -17,8 +17,7 @@ p {
 
 .navbar {
     font-family: "Noto Serif", serif;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
     margin-right: 2rem;
 }
 
@@ -44,8 +43,9 @@ a:visited {
 */
 
 a:hover {
-    background-color: lightsteelblue;
+    background-color: steelblue;
     text-decoration: none;
+    color: white;
 }
 
 /*
@@ -133,6 +133,5 @@ a:focus {
 
 .icon {
     font-size: 45px;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding: 8px;
 }
