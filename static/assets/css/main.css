@@ -34,8 +34,26 @@ p {
 }
 
 a {
-    color: #337ab7;
+    color: steelblue;
 }
+
+/*
+a:visited {
+    color: navy;
+}
+*/
+
+a:hover {
+    background-color: lightsteelblue;
+    text-decoration: none;
+}
+
+/*
+a:focus {
+    background-color: red;
+    outline: none;
+}
+*/
 
 .hero-title {
     font-family: "Noto Serif", serif;
