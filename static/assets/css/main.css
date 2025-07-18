@@ -5,7 +5,7 @@
 /*ALL PAGES*/
 body {
     /*font-size: 16px !important;*/
-    font-family: 'Lora', serif;
+    font-family: "Lora", serif;
     font-size: 16px;
 }
 
@@ -20,25 +20,10 @@ p {
 }
 
 a {
-    color: #337ab7; 
+    color: #337ab7;
 }
 
-
-/* HEADING & BANNER */
-.landing-header {
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-
-.banner {
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.banner-title {
-    margin-top: 10px;
-    margin-bottom: 30px;
+.hero-title {
     font-family: Montserrat, sans-serif;
     color: #0d0d0d;
     font-size: 64px;
@@ -46,14 +31,10 @@ a {
     font-weight: 700;
 }
 
-.banner-subtitle {
-    font-size: 18px;
-    line-height: 20px;
+.hero-subtitle {
+    font-size: 36px;
     font-weight: 300;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
-
 
 /* PROJECTS ON INDEX PAGE */
 .project {
@@ -64,7 +45,7 @@ a {
 
 .project-season {
     padding-top: 10px;
-    font-family: Montserrat, sans-serif; 
+    font-family: Montserrat, sans-serif;
     color: #747474;
     font-size: 16px;
     line-height: 28px;
@@ -79,7 +60,6 @@ a {
     font-size: 32px;
     font-weight: 600;
 }
-
 
 .read-more {
     padding-left: 0px;
@@ -98,7 +78,7 @@ a {
 .proj-image-square {
     position: relative;
     width: 99%;
-    background: linear-gradient(black, #DAE0E6);
+    background: linear-gradient(black, #dae0e6);
 }
 
 .proj-image-square:after {
@@ -106,7 +86,6 @@ a {
     display: block;
     padding-bottom: 100%;
 }
-
 
 /* FOOTER */
 .footer {
