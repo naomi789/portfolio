@@ -120,26 +120,8 @@ a:focus {
     padding: 8px;
 }
 
-.proj-img-container {
-    text-align: center;
-}
-
-.proj-img-content {
-    position: absolute;
-    width: auto;
-    height: 100%;
-}
-
-.proj-image-square {
-    position: relative;
-    width: 99%;
-    background: linear-gradient(black, #dae0e6);
-}
-
-.proj-image-square:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
+.proj-img {
+    max-width: 250px;
 }
 
 /* FOOTER */
