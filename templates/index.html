@@ -1,17 +1,29 @@
 {% extends "base.html" %} {% block content %}
 
-<!-- Banner -->
-<div class="row landing-header">
-    <div class="col-sm-0 col-md-2"></div>
-    <div class="col-sm-12 col-md-8">
-        <h2 class="banner-title">Hi, I'm Naomi</h2>
-            <p>
-                I’ve been a mixed-methods UX Researcher for 5+ years. As a former software engineer, I'm very
-                comfortable working with data analysts or analyzing data myself using R, SQL, Python. My
-                <a href="{{ url_for('about') }}">about page</a> has more details.
-            </p>
-        <div class="col-sm-0 col-md-2"></div>
+<!-- Hero -->
+<!--mt-5 mb-5 mt-lg-10 mb-lg-10-->
+<div class="row hero align-items-center mt-lg-5 mb-lg-5 mt-2 mb-2">
+    <div class="col-sm-1 col-md-1"></div>
+    <div class="col-sm-6 col-md-6 mb-4">
+        <h2 class="hero-title">Researching technical products</h2>
+        <h3 class="hero-subtitle">to increase adoption, retention, and trust</h3>
     </div>
+    <div class="col-sm-4 col-md-4">
+        <!--
+        <p>
+            Collaborative support for cross functional teams
+            See my <a href="{{ url_for('about') }}">about page</a> for more details:
+        </p>
+        -->
+        <ul>
+            <li>5+ years of dedicated UX research experience</li>
+            <li>3+ years building and scaling Research Operations from the ground up</li>
+            <li>Deep expertise in developer tooling, databases, data visualizations, and beyond</li>
+            <li>Former software engineer, experienced writing Python, R, SQL</li>
+            <li>Shaping products that serve over 100 million developers</li>
+        </ul>
+    </div>
+    <div class="col-sm-1 col-md-1"></div>
 </div>
 
 <!-- RATINGS -->
