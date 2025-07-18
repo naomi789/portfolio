@@ -5,19 +5,38 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Naomi Johnson's UX Research portfolio of school & personal projects" />
+
+        <!-- Bootstrap CSS -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
             rel="stylesheet"
-            integrity="sha384-…(use latest integrity hash)…"
+            integrity="sha384-EFe+T3YcFOtKn3Wn+5vvImKZwGUuVcyNYCM1uD82k6phjNDr9xlptV7EP7V6Dtvz"
             crossorigin="anonymous" />
+
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}" />
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
             rel="stylesheet" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Font Awesome 6 Free -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+            integrity="sha512-jQBU2qOKUN9B7jWjGpW6czDJr6SIBEVyAW7ZDtr2ZpgIlS1AZ5KOL+zsnlz8Fh5kVxJMLZORXbHhxT2WHeL9Xg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+
+        <!-- JS Libraries -->
+        <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script
+            defer
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-…"
+            integrity="sha384-y0rY2FHZx5a8xQBXbg4lsmQ5uIQIGqTc6K7z3crYRx1wqMI5oZQX5E9duCG7hZUP"
             crossorigin="anonymous"></script>
     </head>
 
@@ -34,43 +53,32 @@
                                 class="navbar-img mx-2" />
                             Naomi Johnson
                         </a>
-
-                        <button
-                            class="navbar-toggler"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup"
-                            aria-controls="navbarNavAltMarkup"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav ms-auto">
-                                <a class="nav-link mx-2" href="{{ url_for('index') }}">Home</a>
-                                <a class="nav-link mx-2" href="{{ url_for('about') }}">About</a>
-                                <a class="nav-link mx-2" href="{{ url_for('resume') }}">Resume</a>
-                            </div>
-                        </div>
+                        <a
+                            class="nav-link mx-2"
+                            href="{{ url_for('resume') }}"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Resume
+                            <i class="fas fa-external-link-alt ms-1" style="color: inherit" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </nav>
-
                 <!-- CONTENT -->
                 {% block content %} {% endblock %}
-
-                <!-- FOOTER -->
-                <div class="row footer">
-                    <div class="col-3"></div>
-                    <div class="col-6">
-                        <a href="https://www.linkedin.com/in/naomi789/" class="fab fa-linkedin icon"></a>
-                        <a href="https://www.github.com/naomi789" class="fab fa-github icon"></a>
-                        <a href="#UXRnaomi@gmail.com" class="fas fa-envelope icon"></a>
-                        <br /><br />
-                        <p class="copyright">© 2025 <a href="{{ url_for('index') }}">Naomi Johnson</a></p>
+                <footer class="row">
+                    <div class="footer-icons container text-center">
+                        <div class="d-flex justify-content-center gap-4">
+                            <a href="https://www.linkedin.com/in/naomi789/" class="fab fa-linkedin icon"></a>
+                            <a href="https://www.github.com/naomi789" class="fab fa-github icon"></a>
+                            <a href="#UXRnaomi@gmail.com" class="fas fa-envelope icon"></a>
+                        </div>
                     </div>
-                    <div class="col-3"></div>
-                </div>
+                    <div class="footer-copy container text-center">
+                        <div class="d-flex justify-content-center gap-4">
+                            <p class="copyright mb-0 text-center">© 2025 <a href="/">Naomi Johnson</a></p>
+                        </div>
+                    </div>
+                </footer>
             </div>
         </div>
 
